@@ -45,6 +45,14 @@
     <link rel="stylesheet" href="css/sweetalert.css">
     <!-- Estilos personalizados: archivo personalizado 100% real no feik -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha512-RhWds0m5LmkC/zwYrTZv5G5O5XXN9HcqxooAW1gN0C/vdn2QHvgFZPWrl/GZamjgBk2meP9o/WP4Tk4yIgj1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-RmU3qfvJ0YI1+7xISNUAb2XVcRzJVE2aOnwi0Ig+ZWySbZdNwzvVb+g8pJX/4yyD4HSv5UE5eW8gFc5rsoezPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <style>
         /* Este es el estilo del div  del boddy que esta en todas las plantillas */
         body {
@@ -79,10 +87,11 @@
         }
 
         div {
-            margin-top: 80px ;height: 300px;
+            margin-top: 80px;
+            height: 300px;
             width: 20%;
             color: #333;
-            padding:50px;
+            padding: 50px;
             margin: 0 20px;
             box-sizing: border-box;
             border-radius: 20px;
@@ -98,25 +107,30 @@
 
         /* este es el div de alumno  que esta en la sala de computo que esta en resource/view/home.blade.php  */
         .container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			height: 50%;
-		}
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+        }
 
-		.box {
-			width: 100px;
-			height: 100px;
-			background-color: #f2f2f2;
-			margin: 10px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-size: 24px;
-			font-weight: bold;
-			border: 2px solid black;
-		}
+
+
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #f7f4f4;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid black;
+            text-align: center;
+        }
+
         button {
             padding: 10px;
             margin: 20px;
@@ -135,13 +149,42 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            width: 80%;
-            max-width: 900px;
-            height: 500px;
+            width: 100%;
             border-radius: 10px;
             background-color: rangered;
+        }
 
-            margin: 20px;
+
+        form {
+            background-color: rgb(228, 99, 25);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            max-width: 400px;
+        }
+
+        .dispCompu {
+            padding: 20px;
+
+            width: 200px;
+            height: 150px;
+            ;
+        }
+
+        form input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #0f0e0e8f;
+            border-radius: 5px;
+            background-color: #0707073f;
+
+        }
+
+
+        .separador {
+            padding: 10px
         }
 
         /* este es elestilo del div que esta en la plantilla del centro de computo */
@@ -167,7 +210,9 @@
 
 
 
-
+        h1 {
+            color: white
+        }
 
         p {
             left: 0;
@@ -177,7 +222,17 @@
             text-align: center;
             color: white
         }
-        p.pcentrado{
+
+        p.formulario {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            font-size: 20px;
+            text-align: center;
+            color: white
+        }
+
+        p.pcentrado {
             left: 0;
             right: 0;
             margin: 0 auto;
