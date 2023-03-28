@@ -45,7 +45,7 @@
 <script>
   document.querySelectorAll('.box').forEach(function(div) {
   div.addEventListener('click', function() {
-    window.location.href = '/alumno';
+    window.location.href = '/alumno/create';
   });
 });
 

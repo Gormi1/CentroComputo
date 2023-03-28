@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\CComputoController;
 use App\Http\Controllers\CComputoBController;
-use App\Http\Controllers\LoginControlle;
+use App\Http\Controllers\registroBitacoraController;
 use Illuminate\Support\Facades\Route;
 
 use Symfony\Component\HttpKernel\DependencyInjection\RegisterControllerArgumentLocatorsPass;
@@ -13,8 +13,8 @@ Route::get('/', function () {
 });
 //login alumno
 
-Route::any('/alumno',[LoginControlle::class,'create'])->name('alumno.alumno');
-// Route::post('/login', [LoginController::class, 'login']);
+Route::get('/alumno/create',[registroBitacoraController::class,'create'])->name('alumno.alumno');
+Route::post('/registro', [registroBitacoraController::class, 'store']);
 
 
 //ruta de la pagina del centro computo
