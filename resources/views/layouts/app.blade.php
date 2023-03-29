@@ -53,6 +53,7 @@
         integrity="sha512-RmU3qfvJ0YI1+7xISNUAb2XVcRzJVE2aOnwi0Ig+ZWySbZdNwzvVb+g8pJX/4yyD4HSv5UE5eW8gFc5rsoezPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
     <style>
         /* Este es el estilo del div  del boddy que esta en todas las plantillas */
         body {

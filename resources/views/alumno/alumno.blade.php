@@ -16,16 +16,19 @@
     <a class="a" href="#">Contacto</a> --}}
     </nav>
     <section>
-        <form method="POST" action="/registro">
+        <form method="POST" action="/registro" id="formulario">
             @csrf
             <h1>Registro de Alumno</h1>
             <p class="formulario">Ingrese con su clave de Matricula o escanee su tarjeta en el escáner
             </p>
             <br>
-            <span class="fas fa-id-card"></span> <input type="text" name="Matricula" id="Matricula" placeholder="Matricula">
+            <label for="">Matricula:</label>
+            <br>
+            <span class="fas fa-id-card"></span> <input type="text" name="Matricula" id="Matricula" placeholder="00-00-0000">
             <br>
             <br>
-
+            <label for="">Usuario:</label>
+            <br>
             <span class="fas fa-user"></span> <input type="text" name="Usuario" id="Usuario" placeholder="Usuario">
             <br>
             <br>
