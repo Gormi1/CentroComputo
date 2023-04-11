@@ -1,0 +1,49 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #f7f4f4;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rangered;
+}
+
+form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0f0e0e8f;
+    border-radius: 5px;
+    background-color: #0707073f;
+
+}
+
+form {
+    background-color: rgb(228, 99, 25);
+
+    border-radius: 10px;
+
+}
+
+.dispCompu {
+    padding: 20px;
+
+    width: 200px;
+    height: 150px;
+    ;
+}

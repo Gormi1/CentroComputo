@@ -12,54 +12,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bienvenido al sistema de inscripciones de la universidad de la sierra.">
     <link rel="icon" type="image/png" href="https://alumnos.unisierra.edu.mx/img/temple/unisierra.png">
+    {{-- agrego el estilo de css  --}}
+    <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    {{-- alerta sweet --}}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+    <script src="tu-archivo.js"></script>
 
-    <!-- Tempusdominus Bbootstrap 4 -->
-    <link rel="stylesheet"
-        href="https://alumnos.unisierra.edu.mx/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/dist/css/adminlte.min.css">
-    <!-- Toastr -->
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/plugins/toastr/toastr.min.css">
-    <!-- select2 -->
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/plugins/select2/css/select2.css">
-    <!-- DataTables -->
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet"
-        href="https://alumnos.unisierra.edu.mx/plugins/datatables-responsive/css/responsive.bootstrap4.css">
-
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/css/custom.css">
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/css/styles.css">
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/css/modals.css">
-    <link rel="stylesheet" href="https://alumnos.unisierra.edu.mx/css/loadLoader.css">
-
-
-    <!-- Importamos los estilos de Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome: para los iconos -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Sweet Alert: alertas JavaScript presentables para el usuario (más bonitas que el alert) -->
-    <link rel="stylesheet" href="css/sweetalert.css">
-    <!-- Estilos personalizados: archivo personalizado 100% real no feik -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
-        integrity="sha512-RhWds0m5LmkC/zwYrTZv5G5O5XXN9HcqxooAW1gN0C/vdn2QHvgFZPWrl/GZamjgBk2meP9o/WP4Tk4yIgj1g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
-        integrity="sha512-RmU3qfvJ0YI1+7xISNUAb2XVcRzJVE2aOnwi0Ig+ZWySbZdNwzvVb+g8pJX/4yyD4HSv5UE5eW8gFc5rsoezPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <style>
+    {{-- <style>
         /* Este es el estilo del div  del boddy que esta en todas las plantillas */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: rgb(230, 230, 230)
+            background-color: #f3f3f3b4;
         }
 
         /* acaba body */
@@ -67,7 +38,7 @@
         /* empieza estilo para el centro computo */
         nav {
             display: flex;
-            background-color: #f3f3f3;
+            background-color: #fffdfd;
             padding: 10px;
             justify-content: center;
         }
@@ -253,9 +224,10 @@
         /* este es para que quiteel subrayado en los links de los botones */
         a {
             text-decoration: none;
-            color: white
+            color: rgb(20, 20, 20)
         }
-    </style>
+
+    </style> --}}
 </head>
 
 <body>
