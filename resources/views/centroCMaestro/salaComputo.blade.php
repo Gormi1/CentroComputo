@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 @section('title', 'Home')
 @section('content')
@@ -43,16 +42,16 @@
 
 
     <div class="d-flex justify-content-between mx-auto" style="width: 600px;">
-        <div class=" alumno text-center">
+        <div class="text-center">
             <h2 class="fas fa-user fa-7x d-flex align-items-center justify-content-center"></h2>
-            <h1>Alumno</h1>
+            <h1>Sala A</h1>
             <button class="btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"> <a
                     href="{{ route('computo.index') }}">Ingresar</a> </button>
 
         </div>
-        <div class="maestro text-center  ">
+        <div class="text-center">
             <h2 class="fas fa-users fa-7x d-flex align-items-center justify-content-center"></h2>
-            <h1>Maestro</h1>
+            <h1>Sala B</h1>
             <button class="btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"><a
                     href="{{ route('maestro.index') }}">Ingresar</a></button>
 
@@ -63,8 +62,8 @@
     @if (session('success'))
     <script>
         Swal.fire({
-            title: 'Registro exitoso',
-            text: 'Tu equpo ha sido apartado y seleccionado valla a su lugar',
+            title: 'Acceso Autorizado',
+            text: ' Ha accedido Correctamente',
             icon: 'success',
             confirmButtonText: 'Aceptar'
         });

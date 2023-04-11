@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\maestro;
+use DB;
 use Illuminate\Http\Request;
 
 class maestroController extends Controller
@@ -11,17 +12,22 @@ class maestroController extends Controller
 
         return view('maestro.maestro');
     }
-    public function store(Request $request)
-    {
 
+        public function validarClave(Request $request)
+        {
+            $correo = $request->input('clave');
 
-        $registro = new maestro();
-        $registro->Matricula = $request->input('Matricula');
-        $registro->Usuario = $request->input('Usuario');
-        $registro->save();
+            $usuario =maestro::where('clave', $correo)->first();
 
-        return redirect('/eleccionaSala');
+            if ($usuario) {
 
+                return redirect('/salaComputo')->with('success', 'Accedio Correctamente');
 
-    }
+            } else {
+                return redirect('/maestro')
+                ->with('error','Registro exitoso');
+
+            }
+        }
+
 }

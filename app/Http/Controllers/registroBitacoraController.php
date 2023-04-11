@@ -1,9 +1,10 @@
 <?php
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Session;
 use App\Models\bitacora;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
+
 
 class registroBitacoraController extends Controller
 {
@@ -23,8 +24,13 @@ class registroBitacoraController extends Controller
         $registro->Matricula = $request->input('Matricula');
         $registro->Usuario = $request->input('Usuario');
         $registro->save();
-        return redirect()->back()->with('success', 'EL equipo [Número] ha sido registrada Por favor vaya a su equipo');
+        // Lógica para guardar el registro
 
+        return redirect('/')->with('success','Registro exitoso');
+
+        // ->with('success', 'EL equipo [Número] ha sido registrada Por favor vaya a su equipo') esto va despues del redirect
+
+        ;
 
 
     }
