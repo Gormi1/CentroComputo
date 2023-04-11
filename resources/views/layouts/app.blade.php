@@ -16,7 +16,8 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+    {{-- alerta sweet --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <!-- Tempusdominus Bbootstrap 4 -->
     <link rel="stylesheet"
         href="https://alumnos.unisierra.edu.mx/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
@@ -60,7 +61,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: rgb(230, 230, 230)
+            background-color: #f3f3f3b4;
         }
 
         /* acaba body */
@@ -68,7 +69,7 @@
         /* empieza estilo para el centro computo */
         nav {
             display: flex;
-            background-color: #f3f3f3;
+            background-color: #fffdfd;
             padding: 10px;
             justify-content: center;
         }
@@ -254,13 +255,14 @@
         /* este es para que quiteel subrayado en los links de los botones */
         a {
             text-decoration: none;
-            color: white
+            color: rgb(2, 2, 2)
         }
+
     </style>
 </head>
 
 <body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     @yield('content')
 
 </body>

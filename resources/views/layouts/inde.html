@@ -2,52 +2,27 @@
 <html>
 <head>
 	<title>Formulario centrado</title>
-	<style>
-		.container2 {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-		}
 
-		form {
-			background-color: #fff;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			width: 50%;
-			max-width: 600px;
-		}
-
-		form input[type="text"], form input[type="email"], form textarea {
-			width: 80%;
-			padding: 10px;
-			margin-bottom: 10px;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-		}
-
-		form input[type="submit"] {
-			background-color: #007bff;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-		}
-	</style>
 </head>
 <body>
-	<div class="container2">
-		<form>
-			<h2>Formulario de contacto</h2>
-			<input type="text" name="nombre" placeholder="Nombre completo">
-			<input type="email" name="correo" placeholder="Correo electrónico">
-			<textarea name="mensaje" placeholder="Mensaje"></textarea>
-            <br>
-			<input type="submit" value="Enviar">
-		</form>
-	</div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
 </body>
 </html>

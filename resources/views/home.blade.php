@@ -18,18 +18,17 @@
      <p class="pcentrado">Bienvenido Usuario</p>
 
     <section>
-        <div id="miDiv " class="alumno">
-
+        {{-- CONTENEDOR PARA EL ALUMNO --}}
+        <div id="alum  " class="alumno text-center">
             <h2 class="fas fa-user fa-7x d-flex align-items-center justify-content-center"></h2>
-
             <h1>Alumno</h1>
-            <button id="miBoton d-flex align-items-center justify-content-center"> <a href="{{ route('computo.index') }}">Ingresar</a> </button>
+            <button class="btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"> <a href="{{ route('computo.index') }}">Ingresar</a> </button>
         </div>
-        <div id="miDiv" class="maestro">
-
+        {{-- CONTENEDOR PARA EL MAESTRO --}}
+        <div id="maes" class="maestro text-center">
             <h2 class="fas fa-users fa-7x d-flex align-items-center justify-content-center"></h2>
             <h1>Maestro</h1>
-            <button id="miBoton d-flex align-items-center justify-content-center">Ingresar</button>
+            <button class="btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"><a href="{{ route('maestro.index') }}">Ingresar</a></button>
         </div>
     </section>
 
