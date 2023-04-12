@@ -12,8 +12,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bienvenido al sistema de inscripciones de la universidad de la sierra.">
     <link rel="icon" type="image/png" href="https://alumnos.unisierra.edu.mx/img/temple/unisierra.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
     {{-- agrego el estilo de css  --}}
-    <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
+
+    <!-- Agregamos el enlace al archivo de estilos -->
+    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">

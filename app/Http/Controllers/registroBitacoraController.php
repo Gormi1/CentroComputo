@@ -20,17 +20,26 @@ class registroBitacoraController extends Controller
     {
 
 
-        $registro = new bitacora();
-        $registro->Matricula = $request->input('Matricula');
-        $registro->Usuario = $request->input('Usuario');
+    try {
+        $validatedData = $request->validate([
+            'Matricula' => 'required',
+            'Usuario' => 'required',
+        ]);
+
+        // Si los datos son validados, continúa con el procesamiento de los datos
+        $registro = new bitacora;
+        $registro->Matricula = $validatedData['Matricula'];
+        $registro->Usuario = $validatedData['Usuario'];
         $registro->save();
-        // Lógica para guardar el registro
 
-        return redirect('/')->with('success','Registro exitoso');
+        // redirige al usuario a la página anterior
+        return redirect('/')->with('success', 'Registro exitoso');
+    } catch (\Illuminate\Validation\ValidationException $e) {
+        // Mostrar una alerta al usuario indicando que se requieren los campos
+        return back()->with('error', 'Los campos Matricula y Usuario son requeridos.');
+    }
 
-        // ->with('success', 'EL equipo [Número] ha sido registrada Por favor vaya a su equipo') esto va despues del redirect
 
-        ;
 
 
     }
