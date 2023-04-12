@@ -24,17 +24,18 @@
 }
 
 form input[type="text"] {
-    width: 80%;
+    width: 250px;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #0f0e0e8f;
     border-radius: 5px;
     background-color: #0707073f;
+    border: none;
 
 }
 
 form {
-    background-color: rgb(228, 99, 25);
+    background-color: rgb(235, 112, 29);
 
     border-radius: 10px;
 
@@ -47,3 +48,146 @@ form {
     height: 150px;
     ;
 }
+
+.alumno {
+    background: rgb(228, 99, 25);
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.maestro {
+    background: rgb(0, 176, 80);
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+
+h1.letrasdiv {
+    color: white
+}
+
+.nav {
+    font-size: xx-large
+}
+
+p.form-maestro {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+p {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(15, 14, 14)
+}
+
+.form-maestro {
+    color: white;
+}
+
+p.formulario {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
+
+p.pcentrado {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+
+
+/* este es para que quiteel subrayado en los links de los botones */
+a {
+    text-decoration: none;
+    color: rgb(20, 20, 20)
+}
+
+.home {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.boton-Inicio {
+    width: 120px;
+    height: 10px;
+    padding: 20px;
+    background: rgb(0, 204, 102);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+/* boton para el acceso a los maestro */
+#btn-acs-maestro {
+    background-color: rgb(0, 176, 80);
+    border: none;
+
+    border-radius: 5px;
+    height: 45px;
+    width: 160px;
+    color: white;
+    font-size: larger;
+}
+
+/* boton para seleccionar aula ubicado en maestros */
+.btn-acs-maestro {
+    background-color: rgb(0, 176, 80);
+    border: none;
+
+    border-radius: 10px;
+    height: 45px;
+    width: 160px;
+    color: white;
+    font-size: larger;
+}
+a.a-white{
+    color: white;
+}
+input::placeholder {
+    color: white;
+}
+
+.icono {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* div para la sala de computo del maestro */
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    margin: 0 10px;
+    border: none;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(237, 125, 49);
+    border-radius: 20px;
+color: white;
+    width: 300px;
+}
+/* termina div maestro de la sala computo */
