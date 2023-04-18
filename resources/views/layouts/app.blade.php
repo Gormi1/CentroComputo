@@ -13,7 +13,7 @@
     <meta name="description" content="Bienvenido al sistema de inscripciones de la universidad de la sierra.">
     <link rel="icon" type="image/png" href="https://alumnos.unisierra.edu.mx/img/temple/unisierra.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
     {{-- agrego el estilo de css  --}}
 
@@ -40,6 +40,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
     <script src="tu-archivo.js"></script>
+    {{-- iconos de font awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    {{-- mando a llamar el js ubicado en public /js --}}
+    <script src="{{ asset('js/script.js') }}"></script>
 
     {{-- <style>
         /* Este es el estilo del div  del boddy que esta en todas las plantillas */

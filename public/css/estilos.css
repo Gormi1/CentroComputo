@@ -49,8 +49,9 @@ form {
     ;
 }
 
+/* pagina principal donde sale el cuadro alumno y maestro */
 .alumno {
-    background: rgb(228, 99, 25);
+    background: rgb(235, 112, 29);
     text-align: center;
     padding: 40px;
     border-radius: 20px;
@@ -63,6 +64,7 @@ form {
     border-radius: 20px;
 }
 
+/* termina div pagina principal  */
 
 
 h1.letrasdiv {
@@ -127,7 +129,7 @@ a {
 }
 
 .boton-Inicio {
-    width: 120px;
+    width: 100px;
     height: 10px;
     padding: 20px;
     background: rgb(0, 204, 102);
@@ -138,6 +140,7 @@ a {
     color: white;
     border: none;
 }
+
 /* boton para el acceso a los maestro */
 #btn-acs-maestro {
     background-color: rgb(0, 176, 80);
@@ -161,9 +164,11 @@ a {
     color: white;
     font-size: larger;
 }
-a.a-white{
+
+a.a-white {
     color: white;
 }
+
 input::placeholder {
     color: white;
 }
@@ -179,15 +184,35 @@ input::placeholder {
     display: flex;
     justify-content: center;
 }
-
+/* este es el div de las cajas de las computadoras */
 .child {
     margin: 0 10px;
     border: none;
     padding: 40px;
     text-align: center;
-    background-color: rgb(237, 125, 49);
+    background-color: rgb(228, 105, 23);
     border-radius: 20px;
-color: white;
+    color: white;
     width: 300px;
 }
-/* termina div maestro de la sala computo */
+.ocupado {
+    background-color: red;
+
+
+}
+
+
+/* termina div maestro de la sala computo  (235, 112, 29); */
+span.lap {
+    color: rgb(20, 20, 20);
+
+}
+
+/* estados para el div de las aulas maestro */
+.verde {
+    background-color: green;
+}
+
+.rojo {
+    background-color: red;
+}
