@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Models\bitacora;
 use Illuminate\Http\Request;
-use RealRashid\SweetAlert\Facades\Alert;
+
 
 
 class registroBitacoraController extends Controller
@@ -33,7 +33,7 @@ class registroBitacoraController extends Controller
         $registro->save();
 
         // redirige al usuario a la página anterior
-        return redirect('/')->with('success', 'Registro exitoso');
+        return redirect('/')->with('success', 'Tu equpo ha sido apartado y seleccionado valla a su lugar');
     } catch (\Illuminate\Validation\ValidationException $e) {
         // Mostrar una alerta al usuario indicando que se requieren los campos
         return back()->with('error', 'Los campos Matricula y Usuario son requeridos.');

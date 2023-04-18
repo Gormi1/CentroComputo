@@ -14,7 +14,7 @@
                         alt=""></div>
             </div>
             <div class="flex-grow-1 ">
-                <h1  class="  text-center text-large">Centro de Cómputo.</h1><br>
+                <h1 class="  text-center text-large">Centro de Cómputo.</h1><br>
                 <p class=" text-center text-dark ">Bienvenido Usuario</p>
             </div>
         </div>
@@ -29,16 +29,28 @@
         <div id="alumno" class=" alumno text-center" style="">
             <h2 class="fas fa-user fa-7x d-flex align-items-center justify-content-center"></h2>
             <h1 class="letrasdiv">Alumno</h1>
-            <button class="btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"> <a
-                    href="{{ route('computo.index') }}">Ingresar</a> </button>
+
+
+            <a class=" text-center  " href="{{ route('computo.index') }}"><span class=" ">
+                    <button class="home btn btn-light border border-danger"
+                        id=" d-flex align-items-center justify-content-center">
+                        Usar un equipo
+                    </button>
+            </a>
 
         </div>
         {{-- esta caja de texto es para el maestro --}}
         <div class="maestro">
             <h2 class="fas fa-users fa-7x d-flex align-items-center justify-content-center"></h2>
             <h1 class="letrasdiv">Maestro</h1>
-            <button class="home btn btn-light border border-danger" id=" d-flex align-items-center justify-content-center"><a
-                    href="{{ route('maestro.index') }}">Ingresar</a></button>
+            {{-- boton del ingresar para apartar un equipo --}}
+            <a class=" text-center  " href="{{ route('maestro.index') }}"><span class=" ">
+                    <button class="home btn btn-light border border-danger"
+                        id=" d-flex align-items-center justify-content-center">
+                        Usar un aula
+                    </button>
+            </a>
+
 
         </div>
     </div>
@@ -47,10 +59,13 @@
     @if (session('success'))
         <script>
             Swal.fire({
-                title: 'Registro exitoso',
-                text: 'Tu equpo ha sido apartado y seleccionado valla a su lugar',
-                icon: 'success',
-                confirmButtonText: 'Aceptar'
+                title: "Registro exitoso!!",
+
+                text: "{{ session('success') }}",
+                icon: "success",
+                buttons: {
+                    confirm: "Aceptar"
+                }
             });
         </script>
     @endif
