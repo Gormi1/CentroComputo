@@ -49,11 +49,11 @@
 
 
 
-     @if (session('error'))
+         @if (session('error'))
          <script>
              Swal.fire({
                  title: 'Oops¡¡',
-                 text: 'Asegurate que  esten lleno los campos',
+                 text: "{{ session('error') }}",
                  icon: 'warning',
                  confirmButtonText: 'Aceptar'
              });

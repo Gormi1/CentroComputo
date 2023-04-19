@@ -31,22 +31,24 @@ class maestroController extends Controller
 
             ]);
             $correo = $request->input('clave');
+            // dd($correo);
 
             // Si los datos son validados, continúa con el procesamiento de los datos
 
             $usuario = maestro::where('clave', $correo)->first();
 
-            if ($usuario) {
+            if (!$usuario) {
+                // dd($correo);
                 $succes = 'success';
                 $mensaje = 'Accedio Correctamente';
                 return redirect('/salaComputo')->with($succes, $mensaje);
 
             } else {
 
-                $mensaje1 = 'Usuario no encontrado';
+                $mensaje= 'Usuario no encontrado';
 
 
-                $mensaje = $mensaje1;
+
                 return redirect('/maestro')
                     ->with('warning', $mensaje);
 
