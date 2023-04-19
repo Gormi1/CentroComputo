@@ -1,0 +1,59 @@
+[33mcommit f90f12b8caad1a0b1ea9a85e3d92e2c231c184c3[m[33m ([m[1;36mHEAD -> [m[1;32mabel[m[33m)[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Mon Apr 17 20:40:46 2023 -0700
+
+    Agregue el funcionamiento de los estado de las aulas de los maestros
+
+[33mcommit 20216b5f11eff72f18a7cdb7353831c23948fc8d[m[33m ([m[1;31morigin/abel[m[33m)[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Tue Apr 11 20:41:25 2023 -0700
+
+     borre la carpeta que estaba demas
+
+[33mcommit 0dee43afd990da28381083e976fe97a1cd670049[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Tue Apr 11 20:37:04 2023 -0700
+
+     Agregue las notificaciones en cada error para acceso denegado,llenar los campos y acceso autorizado en la vista de login maestro
+
+[33mcommit ac1461408de4fdfdbf7e559cf8480a3c1d0f3b38[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Mon Apr 10 22:53:45 2023 -0700
+
+    Agregue nuevo estilo boostrap para que funcionaran las alertas con animacion y agregue ellogue de los maestros
+
+[33mcommit b9413bc67f7bf6ba2e0335b59d79b57429ad2d45[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Mon Apr 10 22:49:37 2023 -0700
+
+     Agregue estilo boostrap y realice una creacion de la tabla maestro  para acceder a las salas logueado con su matricula
+
+[33mcommit ffae1a9c9fef88dcea05d7c4e500387828f8c1c5[m[33m ([m[1;32mjorge[m[33m)[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Wed Mar 29 12:57:00 2023 -0700
+
+    agregue todo el proyecto
+
+[33mcommit 3c4d9293ec278de8b81b4f35e0022cd051ae1341[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Tue Mar 28 15:28:45 2023 -0700
+
+    Cree la tabla de bitacora para el registron de ususarios
+
+[33mcommit e76312563b4e1d38465233230025c49176e549fc[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Tue Mar 28 01:13:04 2023 -0700
+
+    Agregue el redireccionamiento de la computadora al fomulario de alumno
+
+[33mcommit 4b30b8ddee50c9862aaf428532b820035b09adb0[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Sun Mar 26 17:34:57 2023 -0700
+
+    Agregue el desplazamiento en la pagina principal a el de las computadoras
+
+[33mcommit 73fbde8243a0985993c445898da0cb079bd816bc[m[33m ([m[1;32mbitacora-alumno[m[33m)[m
+Author: 310318AAC <126709945+310318AAC@users.noreply.github.com>
+Date:   Thu Mar 23 23:41:39 2023 -0700
+
+    agrego proyecto
