@@ -29,11 +29,9 @@
         <div id="alumno" class=" alumno text-center" style="">
             <h2 class="fas fa-user fa-7x d-flex align-items-center justify-content-center"></h2>
             <h1 class="letrasdiv">Alumno</h1>
-
-
             <a class=" text-center  " href="{{ route('computo.index') }}"><span class=" ">
-                    <button class="home btn btn-light border border-danger"
-                        id=" d-flex align-items-center justify-content-center">
+                    <button class="home btn btn-light border border-danger align-items-center justify-content-center"
+                        id=" boton1home">
                         Usar un equipo
                     </button>
             </a>
@@ -45,8 +43,8 @@
             <h1 class="letrasdiv">Maestro</h1>
             {{-- boton del ingresar para apartar un equipo --}}
             <a class=" text-center  " href="{{ route('maestro.index') }}"><span class=" ">
-                    <button class="home btn btn-light border border-danger"
-                        id=" d-flex align-items-center justify-content-center">
+                    <button class="home btn btn-light border border-danger align-items-center justify-content-center"
+                      id="btnhome2">
                         Usar un aula
                     </button>
             </a>
