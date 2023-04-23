@@ -125,8 +125,15 @@ a {
 
 .home {
     text-decoration: none;
-    color: rgb(0, 0, 0)
+    color: rgb(168, 147, 147)
 }
+#btnhome2:disabled {
+    text-decoration: none;
+    color: rgb(235, 218, 218);
+
+}
+
+
 
 .boton-Inicio {
     width: 100px;
