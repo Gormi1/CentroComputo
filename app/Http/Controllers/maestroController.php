@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\maestro;
-use App\Models\bitacora_maestro;
+use App\Models\bitacoraMaestro;
 use DB;
 use Illuminate\Http\Request;
 
@@ -77,12 +77,12 @@ class maestroController extends Controller
             ]);
 
             // Si los datos son validados, continúa con el procesamiento de los datos
-            $registro = new bitacora_maestro;
+            $registro = new bitacoraMaestro;
             $registro->Grupo = $validatedData['Grupo'];
             $registro->Materia = $validatedData['Materia'];
             $registro->NumAlumno = $validatedData['NumAlumno'];
             $registro->HoraSalida = $validatedData['HoraSalida'];
-            $registro->estado = $validatedData['estado'];
+
             $registro->save();
 
             // redirige al maestro a la página anterior
