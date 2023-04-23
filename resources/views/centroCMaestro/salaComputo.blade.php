@@ -26,7 +26,7 @@
 
     </nav>
 
-
+{{--
     @php
         $estados = \App\Models\bitacora_maestro::pluck('estado');
         $estado1 = $estados[0];
@@ -34,13 +34,14 @@
         // dd($estado1);
         // dd($estado2);
     @endphp
-
+--}}
     <div class=" contenedor d-flex justify-content-between mx-auto" style="width: 600px; padding-top:60px;">
 
         {{-- Caja de sala A --}}
         <div id="alum" class=" alum text-center" style="" id="mi_div">
+            {{-- {{ $estado1 == 'ocupado' ? 'ocupado' : '' }} --}}
 
-            <div class="child {{ $estado1 == 'ocupado' ? 'ocupado' : '' }}" id="mi_div1">
+            <div class="child " id="mi_div1">
                 <h2 class="fas fa-laptop fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h1 class="text-white">Aula A</h1>
                 <h1 class="text-white">24 equipos</h1>
@@ -60,8 +61,8 @@
 
         {{-- esta caja de texto para sala B --}}
         <div id="alum" class=" alum text-center" style="">
-
-            <div class="child {{ $estado2 == 'ocupado' ? 'ocupado' : '' }} " id="mi_div">
+            {{-- {{ $estado2 == 'ocupado' ? 'ocupado' : '' }} --}}
+            <div class="child  " id="mi_div">
                 <h2 class="fas fa-laptop fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h1 class="text-whith">Aula B</h1>
                 <h1 class="text-whith">32 equipos</h1>
