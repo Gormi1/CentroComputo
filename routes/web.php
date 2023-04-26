@@ -3,7 +3,7 @@
 use App\Http\Controllers\CComputoController;
 use App\Http\Controllers\CComputoBController;
 use App\Http\Controllers\maestroController;
-
+use App\Http\Controllers\algoritmoController;
 use App\Http\Controllers\salaComputoController;
 use App\Http\Controllers\registroBitacoraController;
 
@@ -52,4 +52,12 @@ Route::get('/compuB', [CComputoBController::class, 'create'])
 
     // ruta para ver los estados del div
     Route::get('/obtener-estado', 'computadorasController@obtenerEstado');
+
+
+
+
+
+    // purebas de arquitectura
+    // acceso de la bitacora para registro del maestro
+Route::get('/algoritmos', [algoritmoController::class, 'create'])->name('algoritmos.index');
 

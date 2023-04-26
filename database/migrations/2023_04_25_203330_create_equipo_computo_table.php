@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('bitacora_maestro', function (Blueprint $table) {
+        Schema::create('equipo_computo', function (Blueprint $table) {
             $table->id();
-            $table->string('Grupo');
-            $table->string('Materia');
-            $table->string('NombreSala');
-            $table->string('NumAlumno');
-            $table->string('HoraSalida');
-            $table->timestamps();
+            $table->string('Nobre-Sala');
+            $table->string('Numero_Equipo');
+            $table->string('Estado');
         });
     }
 
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('bitacora_maestro');
+        Schema::dropIfExists('equipo_computo');
     }
 };
