@@ -39,6 +39,8 @@
                          <i class="icono fas fa-user text-dark "></i> <input type="text" name="Usuario" id="Usuario"
                              placeholder="Usuario">
                          <br>
+                         <input type="hidden" name="numEquipo" id="NumEquipo" placeholder="numEquipo" value="">
+                         <input type="hidden" name="sala" id="Sala" placeholder="numEquipo" value="">
                          <button id="btn-acs-maestro" class="text-center">Acceder</button>
                  </form>
 

@@ -14,7 +14,6 @@ return new class extends Migration {
             $table->id();
             $table->string('Matricula');
             $table->string('Usuario');
-            $table->string('Equipo');
 
 
 

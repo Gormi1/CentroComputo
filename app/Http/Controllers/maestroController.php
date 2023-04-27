@@ -31,30 +31,30 @@ class maestroController extends Controller
 
             ]);
             $correo = $request->input('clave');
-            // dd($correo);
+            //dd($correo);
 
             // Si los datos son validados, continúa con el procesamiento de los datos
 
             $usuario = maestro::where('clave', $correo)->first();
+            //dd($usuario);
 
-            if (!$usuario) {
-                // dd($correo);
-                $succes = 'success';
-                $mensaje = 'Accedio Correctamente';
-                return redirect('/salaComputo')->with($succes, $mensaje);
-
-            } else {
-
+            if ($usuario != null) {
+                if ($usuario->exists) {
+                    // dd($correo);
+                    $succes = 'success';
+                    $mensaje = 'Accedio Correctamente';
+                    return redirect('/salaComputo')->with($succes, $mensaje);
+                }else {
+                    $mensaje= 'Usuario no encontrado';
+                    return redirect('/maestro')
+                        ->with('warning', $mensaje);
+                }
+            } else {    
                 $mensaje= 'Usuario no encontrado';
-
-
-
                 return redirect('/maestro')
                     ->with('warning', $mensaje);
-
             }
-
-
+            
         } catch (\Illuminate\Validation\ValidationException $e) {
             // Mostrar una alerta al usuario indicando que se requieren los campos
             return back()->with('error', 'Favor de llenar los campos.');
