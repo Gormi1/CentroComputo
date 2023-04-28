@@ -1,3 +1,16 @@
+
+const Equipo = () =>{
+    window.location.href = '/computo';
+}
+
+const Aula = () => {
+    window.location.href = '/maestro';
+}
+
+const home = () => {
+    window.location.href = '/';
+}
+
 fetch('/obtener-estado')
     .then(function(response) {
         return response.json();
@@ -15,3 +28,4 @@ fetch('/obtener-estado')
             }
         });
     });
+    

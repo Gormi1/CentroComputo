@@ -9,5 +9,5 @@ class CComputoController extends Controller
     public function create(){
 
         return view('centroC.computo');
-       }
+    }
 }
