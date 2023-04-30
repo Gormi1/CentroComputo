@@ -15,7 +15,7 @@ class maestroController extends Controller
     // vista para redireccionar al formulario bitacora
     public function create1()
     {
-        return view('bitacoraMaestro.bitacoraMaestro');
+        return view('bitacoraAula.bitacoraAula');
     }
     // login del maestro
     public function validarClave(Request $request)
@@ -37,7 +37,7 @@ class maestroController extends Controller
                 if ($usuario->exists) {
                     $success = 'success';
                     $mensaje = 'Accedió Correctamente';
-                    return redirect('/salaComputo')->with($success, $mensaje);
+                    return redirect('/seleccionAula')->with($success, $mensaje);
                 }else {
                     //muestra una alerta de error al mostrar datos incorrectos
                     $mensaje= 'datos incorrectos';

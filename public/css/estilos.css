@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .img{
-    height: 115px;
+    height: 170px;
 }
 .container{
     text-align: center;
@@ -86,13 +86,13 @@ form{
 }
 
 #title{
-    padding-right: 460px;
+    padding-right: 27em;
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
 #logo{
-    padding-left: 330px;
+    padding-left:14em;
 }
 /* termina div pagina principal  */
 

@@ -35,19 +35,19 @@
                     @csrf
                     <h2 class="form-maestro">Datos del grupo</h1>
                     <br>
-                    <i class="icono fas fa-group text-dark "></i>
+                    <i class="icono fas fa-sharp fa-solid fa-user-group"></i>
                     <!-- input[Type="Text"] del grupo -->
                     <input type="text" name="Grupo"id="Grupo"placeholder="Grupo">
                     <br>
-                    <i class="icono fas fa-assignament text-dark "></i> 
+                    <i class="icono fa-solid fa-book text-dark"></i>
                     <!-- input[Type="Text"] de la materia -->
                     <input type="text" name="Materia" id="Materia" placeholder="Materia">
                     <br>
-                    <i class="icono fas fa-user  text-dark "></i> 
+                    <i class="icono fas fa-user text-dark"></i> 
                     <!-- input[Type="Text"] del número de alumnos -->
                     <input type="text" name="NumAlumno" id="NumAlumno" placeholder="Numero de alumnos">
                     <br>
-                    <i class="icono  fas fa-clock text-dark "></i>
+                    <i class="icono fas fa-clock text-dark"></i>
                     <!-- input[Type="datetime-local"] para el apartado del aula dependiendo de la hora y el día -->
                     <input type="datetime-local" name="HoraSalida" id="HoraSalida" >
                     <br>

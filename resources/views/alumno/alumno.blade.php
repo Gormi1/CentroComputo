@@ -26,8 +26,9 @@
 
     </nav>
     <div class="container p-2">
+        <div class="row col-md-4"></div>
         <div class="row justify-content-center p-2" style="margin-top: 20px; ">
-            <div class="col-md-15">
+            <div class="col-md-12">
                 <!-- Formulario de el registro de los alumnos para el préstamo de el equipo -->
                 <form method="POST" action="/registro" id="formulario" class="text-center p-4">
                     @csrf
@@ -49,6 +50,13 @@
                     <!-- botón usado para el préstamo del equipo -->
                     <button id="AccesoAlumno" class="text-center btn-acs-maestro ">Acceder</button>
                 </form>
+            </div>
+        </div>
+        <div class="row col-md-1"></div>
+        <div>        
+            <div class="row col-md-6">
+                <h2 class="fas fa-solid fa-computer fa-7x d-flex align-items-center justify-content-center"></h2>
+                <button id="Regresar" class="text-center btn-acs-maestro" onclick="Equipo()">Regresar</button>   
             </div>
         </div>
     </div>
