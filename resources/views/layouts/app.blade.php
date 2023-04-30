@@ -40,6 +40,8 @@
         {{-- iconos de font awesome --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://kit.fontawesome.com/ecd203273f.js" crossorigin="anonymous"></script>
+        
     </head>
     
     <body onload="cargarPc()">

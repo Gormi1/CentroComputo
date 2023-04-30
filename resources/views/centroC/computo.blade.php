@@ -24,14 +24,16 @@
                 </div>
                 <div class=" text-white text-center" style="width: 33.33%;">
                     {{-- botón de la sala A --}}
-                    <a class="a text-center  " href="{{ route('computo.index') }}"><span class="lap fa fa-laptop fa-3x P-2 ">
+                    <a class="a text-center  " href="{{ route('computo.index') }}">
+                        <span class="lap fa fa-solid fa-computer fa-3x P-2 ">
                         <br> 
                         <button class="btn btn-success active:border border-solid border-gray-500 active:bg-gray-200">
                             Sala A
                         </button>
                     </a>
                     {{-- botón de la sala B --}}
-                    <a class="a text-center" href="{{ route('computoB.index') }}"><span class="lap fa fa-laptop fa-3x P-2 ">
+                    <a class="a text-center" href="{{ route('computoB.index') }}">
+                        <span class="lap fa fa-solid fa-computer fa-3x P-2 ">
                         <br> 
                         <button class="btn btn-secondary active:border border-solid border-gray-500 active:bg-gray-200">
                             Sala B
@@ -46,7 +48,7 @@
 
     <div id="contenedor" class="container">
         <div class="box">
-            <span class="fa fa-laptop fa-2x"></span>
+            <i class="fa fa-solid fa-computer fa-2x"></i>
         </div>
     </div>
 
@@ -61,7 +63,7 @@
             //además de tener la función de poder ir al link de apartado de equipo junto con la id
             for (let i = 1; i <= 24; i++) {
                 tarjetas.push(`
-                <div class="box" id="${i}" onclick="seleccionarEquipo(${i})"><span class="fa fa-laptop fa-2x"></span>${i}</div>
+                <div class="box" id="${i}" onclick="seleccionarEquipo(${i})"><i class="fa fa-solid fa-computer fa-2x"></i>${"  "+i}</div>
                 `)
             }
             //se insertan los 24 equipos en el contenedor

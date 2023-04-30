@@ -35,16 +35,16 @@ class registroBitacoraController extends Controller
                     // además de guardar los datos dentro de la bases de datos
                     $registro->save();
                     // y redirige al usuario a la página anterior
-                    return redirect('/')->with('success', 'Tu equpo ha sido apartado y seleccionado vaya a su lugar');
+                    return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado vaya a su lugar');
 
                 } else {
                     // Si no tiene la estructura correcta o contiene caracteres que no son numéricos, mostramos un mensaje de error
-                    $msg = 'ingrese la matricuala en este formato (00-00-0000)';
+                    $msg = 'ingrese la matricula en este formato (00-00-0000)';
                     $error = 'error';
                     return back()->with($error, $msg);
                 }
 
-        // return redirect('/')->with('success', 'Tu equpo ha sido apartado y seleccionado valla a su lugar');
+        // return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado valla a su lugar');
         } catch (\Illuminate\Validation\ValidationException $e) {
             // Mostrar una alerta al usuario indicando que se requieren los campos
             return back()->with('error', 'Los campos Matricula y Usuario son requeridos.');

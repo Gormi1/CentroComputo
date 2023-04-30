@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class salaComputoController extends Controller
 {
     public function create(){
-        return view('centroCMaestro.salaComputo');
+        return view('seleccionAula.seleccionAula');
     }
 }
