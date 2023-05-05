@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Models;
 
 use Exception;
@@ -14,8 +13,9 @@ class bitacora extends Model
     protected $fillable = [
         'Matricula',
         'Usuario',
-
+        'HoraEntrada',
+        'HoraSalida',
+        'NumEquipo',
+        'Aula',
     ];
-
-
 }

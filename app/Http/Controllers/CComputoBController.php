@@ -10,4 +10,5 @@ class CComputoBController extends Controller
         return view('centroC.computoB');
     }
     
+    
 }

@@ -33,13 +33,17 @@
                 {{--formulario--}}
                 <form method="POST" action="{{ route('validar-clave') }}" id="formulario" class="text-center p-4">
                     @csrf
-                    <h2 class="form-maestro">Iniciar sesión maestro</h2>
-                    <p class="form-maestro">Ingrese con su clave de empleado</p>
-                    {{--logotipo de la izquierda--}}
-                    <i class="icono fa fa-credit-card text-dark "></i>
-                    {{--input[Type="text"] encargado de validar la clave del maestro--}}
-                    <input type="text" name="clave" id="clave" placeholder="clave de empleado">
-                    <br>
+                    <div>
+                        <h2 class="form-maestro">Iniciar sesión maestro</h2>
+                        <p class="form-maestro">Ingrese con su clave de empleado</p>
+                    </div>
+                    <div>
+                        <div>
+                            <p class="label">clave de empleado</p>
+                        </div>
+                        <i class="icono fa fa-credit-card text-dark "></i>
+                        <input type="text" name="clave" id="clave">
+                    </div>
                     {{--botón de acceso--}}
                     <button id="AccesoMaestro" class="text-center btn-acs-maestro">
                         Acceder

@@ -37,21 +37,22 @@
     <div class=" contenedor d-flex justify-content-between mx-auto" style="width: 600px; padding-top:60px;">
         {{-- Caja de sala A --}}
         <div id="alum" class=" alum text-center" style="" id="mi_div">
-            {{-- {{ $estado1 == 'ocupado' ? 'ocupado' : '' }} --}}
-            <div class="child " id="mi_div1">
+            <div class="child row" id="mi_div1">
                 <!-- <i class="fa fa-solid fa-computer fa-2x"></i> -->
                 <h2 class="fas fa-solid fa-computer fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h2 class="text-white">Aula A</h2>
                 <h3 class="textH3">24 equipos</h3>
             </div>
-            <br><br>
             {{-- botón del ingresar para apartar el aula A --}}
-            <a class=" text-center  " href="{{ route('bitacoraAula.index') }}">
-                <button id=" d-flex align-items-center justify-content-center" 
-                class="btn-acs-maestro"  value="ocupado" name="estado">
+            <div class="BtnAula">
+                <button 
+                    class="btn-acs-maestro text-center" 
+                    onclick="SelectAula('A')" 
+                    class=" d-flex align-items-center justify-content-center">
                     Seleccionar aula
                 </button>
-            </a>
+            </div>
+            
         </div>
 
         {{-- esta caja de texto para sala B --}}
@@ -62,13 +63,15 @@
                 <h2 class="text-whith">Aula B</h2>
                 <h3 class="textH3">32 equipos</h3>
             </div>
-            <br><br>
             {{-- botón del ingresar para apartar el aula B --}}
-            <a class=" text-center  " href="{{ route('bitacoraAula.index') }}">
-                <button class="btn-acs-maestro" id=" d-flex align-items-center justify-content-center">
+            <div class="BtnAula">
+                <button 
+                    class="btn-acs-maestro text-center" 
+                    onclick="SelectAula('B')" 
+                    class=" d-flex align-items-center justify-content-center">
                     Seleccionar aula
                 </button>
-            </a>
+            </div>
         </div>
     </div>
 

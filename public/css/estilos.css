@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .box{
     border-radius:15px;
     width: 115px;
@@ -7,11 +12,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     font-weight: bold;
     text-align: center;
     background-color: rangered;
     cursor: pointer;
+    text-align: center;
+}
+.textBox{
+    font-size: large;
 }
 .img{
     height: 170px;
@@ -26,7 +34,7 @@
     border-radius: 10px;
 }
 
-form input[type="text"], form input[type="datetime-local"]  {
+form input[type="text"], form input[type="datetime-local"], form input[type="time"]{
     width: 250px;
     padding: 10px;
     margin-bottom: 10px;
@@ -35,13 +43,41 @@ form input[type="text"], form input[type="datetime-local"]  {
     border: none;
     color: white;
 }
-form input[type="text"]:focus, form input[type="datetime-local"]:focus {
+form input[type="text"]:focus, 
+form input[type="datetime-local"]:focus{
     background-color: #0707075b;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 
 form{
     background-color: rgb(235, 112, 29);
     border-radius: 10px;
+}
+
+p.label{
+    position: relative;
+    left: 3.7rem;
+    right: 0;
+    margin: 0 ;
+    text-align: center;
+    top: .5rem;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(235, 112, 29);
+    margin-right: 12rem;
+    border-radius:5px;
+}
+
+.select{
+    position:relative;
+    left: 1rem;
+}
+
+.BtnAula{
+    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 .btn{
@@ -120,6 +156,14 @@ p.form-maestro {
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+    color: rgb(255, 255, 255)
+}
+p.form-maestro2 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: left;
     color: rgb(255, 255, 255)
 }
 
@@ -218,10 +262,6 @@ a.a-white {
     color: white;
 }
 
-input::placeholder {
-    color: white;
-}
-
 .icono {
     background-color: white;
     padding: 10px;
@@ -275,7 +315,7 @@ span.lap {
     padding-top: 20px;
 }
 
-#clave{
-    margin-top: 15px;
-    margin-bottom: 15px;
+.title{
+    padding-bottom: 20px;
 }
+

@@ -18,14 +18,14 @@
             </div>
             <div class="d-flex justify-content-between w-100">
                 <div class="text-white text-center" style="width: 66.66%;">
-                    <h1 class="text-dark">Centro de Computo | Sala A</h1>
+                    <h1 class="text-dark">Centro de Computo | Sala B</h1>
                 </div>
                 <div class=" text-white text-center" style="width: 33.33%;">
                     {{-- botón de la sala A --}}
                     <a class="a text-center  " href="{{ route('computo.index') }}">
                         <span class="lap fa fa-solid fa-computer fa-3x P-2 ">
                         <br> 
-                        <button class="btn btn-success active:border border-solid border-gray-500 active:bg-gray-200">
+                        <button class="btn btn-secondary active:border border-solid border-gray-500 active:bg-gray-200">
                             Sala A
                         </button>
                     </a>
@@ -33,7 +33,7 @@
                     <a class="a text-center" href="{{ route('computoB.index') }}">
                         <span class="lap fa fa-solid fa-computer fa-3x P-2 ">
                         <br> 
-                        <button class="btn btn-secondary active:border border-solid border-gray-500 active:bg-gray-200">
+                        <button class="btn btn-success active:border border-solid border-gray-500 active:bg-gray-200">
                             Sala B
                         </button>
                     </a>
@@ -59,7 +59,7 @@
             //además de tener la función de poder ir al link de apartado de equipo junto con la id
             for (let i = 1; i <= 32; i++) {
                 tarjetas.push(`
-                <div class="box" id="${i}" onclick="seleccionarEquipo(${i})"><i class="fa fa-solid fa-computer fa-2x"></i>${"  "+i}</div>
+                <div class="box" data-id="${i}" onclick="seleccionarEquipo(${i},'B')" ><i class="fa fa-solid fa-computer fa-2x">{{ "\n" }}${+i}</i></div>
                 `)
             }
             //se insertan los 24 equipos en el contenedor
@@ -67,8 +67,21 @@
         }
 
         //función para poder ir a la sección de apartado
-        const seleccionarEquipo = (i) => {
-            window.location.href = '/computo/create';
+        const seleccionarEquipo = (id, vista) =>{
+            let url = "{{ route('alumno.index', ['id' => ':id', 'vista' => ':vista']) }}".replace(':id', id).replace(':vista', vista);
+                        
+            $.ajax({
+                type: "GET",
+                url: url,
+                success: function(response) {
+                    // Aquí puedes manejar la respuesta del controlador, como mostrarla en la vista
+                    window.location.href = '/computo/create/equipo'+id+vista;
+                    console.log(response);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
         }
     </script>
 

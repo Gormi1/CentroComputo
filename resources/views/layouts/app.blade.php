@@ -13,13 +13,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
-        <!-- Scripts -->
-        <script src="{{ asset('js/ScriptApp.js') }}" defer></script>
-
-        {{-- agrego el estilo de css  --}}
-        <!-- Agregamos el enlace al archivo de estilos -->
-        <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
-
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
@@ -36,11 +29,20 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
-        <script src="tu-archivo.js"></script>
         {{-- iconos de font awesome --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <script src="https://kit.fontawesome.com/ecd203273f.js" crossorigin="anonymous"></script>
+        {{--jquery--}}
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+        <!-- Scripts -->
+        <script src="{{ asset('js/ScriptApp.js') }}" defer></script>
+
+        {{-- agrego el estilo de css  --}}
+        <!-- Agregamos el enlace al archivo de estilos -->
+        <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+
         
     </head>
     
