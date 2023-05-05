@@ -9,10 +9,9 @@ use Illuminate\Http\Request;
 class registroBitacoraController extends Controller
 {
 
-    public function create()
+    public function create($id, $vista)
     {
-
-        return view('alumno.alumno');
+        return view('alumno.alumno', ['id' => $id, 'vista' => $vista]);
     }
 
 
@@ -22,6 +21,10 @@ class registroBitacoraController extends Controller
             $validatedData = $request->validate([
                 'Matricula' => 'required',
                 'Usuario' => 'required',
+                'HoraEntrada' => 'required',
+                'HoraSalida' => 'required',
+                'NumEquipo' => 'required',
+                'Aula' => 'required',
             ]);
 
             // Si los datos son validados, continúa con el procesamiento de los datos
@@ -29,6 +32,11 @@ class registroBitacoraController extends Controller
             $matricula = $validatedData['Matricula'];
             $registro->Matricula =  $matricula;
             $registro->Usuario = $validatedData['Usuario'];
+            $registro->HoraEntrada =$validatedData['HoraEntrada'];
+            $registro->HoraSalida =$validatedData['HoraSalida'];
+            $registro->NumEquipo = $validatedData['NumEquipo'];
+            $aula =  $validatedData['Aula'];
+            $registro->Aula = $aula;
             // Comprobamos si el valor del campo de acceso tiene la estructura "xx-xx-xxxx" y solo contiene números
             if (preg_match('/^\d{2}-\d{2}-\d{4}$/', $matricula)) {
                     // Si tiene la estructura correcta y solo contiene números, podemos permitir el acceso

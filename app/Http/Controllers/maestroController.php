@@ -4,6 +4,8 @@ use App\Models\maestro;
 use App\Models\bitacoraMaestro;
 use DB;
 use Illuminate\Http\Request;
+use DateTime;
+use Carbon\Carbon;
 
 class maestroController extends Controller
 {
@@ -13,9 +15,9 @@ class maestroController extends Controller
         return view('maestro.maestro');
     }
     // vista para redireccionar al formulario bitacora
-    public function create1()
+    public function create1($Aula)
     {
-        return view('bitacoraAula.bitacoraAula');
+        return view('bitacoraAula.bitacoraAula', ['Aula' => $Aula]);
     }
     // login del maestro
     public function validarClave(Request $request)
@@ -60,21 +62,42 @@ class maestroController extends Controller
     public function store(Request $request)
     {
         try {
+            $meses = array(
+                'enero', 'febrero', 'marzo', 'abril',
+                'mayo', 'junio', 'julio', 'agosto',
+                'septiembre', 'octubre', 'noviembre', 'diciembre'
+            );
+            
             $validatedData = $request->validate([
                 'Grupo' => 'required',
                 'Materia' => 'required',
                 'NumAlumno' => 'required',
-                'HoraSalida' => 'required',
-                'estado' => 'required',
+                'HoraEntrada' => 'required',
+                'Aula'=>'required',
             ]);
+            
+            $date_input = $_POST['HoraEntrada'];
+            
+            $date_time = new DateTime($date_input);
 
+            $dia = $date_time->format('d');
+            $mes = $date_time->format('n') - 1; // Resta 1 porque el arreglo comienza en 0
+            $nombre_mes = $meses[$mes];
+            $hora = $date_time->format('H:i:s');
+            
+           // dd($date_input);
+            
             // Si los datos son correctos, continúa con el procesamiento de los datos
             $registro = new bitacoraMaestro;
             $registro->Grupo = $validatedData['Grupo'];
             $registro->Materia = $validatedData['Materia'];
             $registro->NumAlumno = $validatedData['NumAlumno'];
-            $registro->HoraSalida = $validatedData['HoraSalida'];
-
+            $registro->Day = $dia;
+            $registro->Month = $nombre_mes;
+            $registro->HoraEntrada = $hora;
+            $aula =  $validatedData['Aula'];
+            $registro->Aula = $aula;
+            
             $registro->save();
 
             // redirige al maestro a la página anterior

@@ -16,7 +16,10 @@ return new class extends Migration
             $table->string('Grupo');
             $table->string('Materia');
             $table->string('NumAlumno');
-            $table->string('HoraSalida');
+            $table->string("Aula");
+            $table->string('Day');
+            $table->string('Month');
+            $table->string('HoraEntrada');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('bitacora_maestro');
+        Schema::dropIfExists('bitacoraAula');
     }
 };

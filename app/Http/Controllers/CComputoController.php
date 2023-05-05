@@ -10,4 +10,6 @@ class CComputoController extends Controller
 
         return view('centroC.computo');
     }
+
+    
 }

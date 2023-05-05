@@ -63,7 +63,7 @@
             //además de tener la función de poder ir al link de apartado de equipo junto con la id
             for (let i = 1; i <= 24; i++) {
                 tarjetas.push(`
-                <div class="box" id="${i}" onclick="seleccionarEquipo(${i})"><i class="fa fa-solid fa-computer fa-2x"></i>${"  "+i}</div>
+                <div class="box" data-id="${i}" onclick="seleccionarEquipo(${i},'A')" ><i class="fa fa-solid fa-computer fa-2x">{{ "\n" }}${+i}</i></div>
                 `)
             }
             //se insertan los 24 equipos en el contenedor
@@ -71,18 +71,31 @@
         }
 
         //función para poder ir a la sección de apartado
-        const seleccionarEquipo = (i) => {
-            window.location.href = '/computo/create';
+        const seleccionarEquipo = (id, vista) =>{
+            let url = "{{ route('alumno.index', ['id' => ':id', 'vista' => ':vista']) }}".replace(':id', id).replace(':vista', vista);
+
+            $.ajax({
+                type: "GET",
+                url: url,
+                success: function(response) {
+                    // Aquí puedes manejar la respuesta del controlador, como mostrarla en la vista
+                    window.location.href = '/computo/create/equipo'+id+vista;
+                    console.log(response);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
         }
     </script>
-
+    
 
     {{-- alerta para mostrar un apartado exitoso --}}
     @if (session('success'))
         <script>
             Swal.fire({
                 title: 'Registro exitoso',
-                text: 'Tu equpo ha sido apartado y seleccionado valla a su lugar',
+                text: 'Tu equipo ha sido apartado y seleccionado valla a su lugar',
                 icon: 'success',
                 confirmButtonText: 'Aceptar'
             });

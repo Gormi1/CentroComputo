@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('home');
 });
 //Acceso al alumno para registrarlo
-Route::get('/computo/create', [registroBitacoraController::class, 'create'])->name('alumno.index');
+Route::get('/computo/create/equipo{id}{vista}', [registroBitacoraController::class, 'create'])->name('alumno.index');
 
 // acceso a la vista para insertar datos del alumno
 Route::post('/registro', [registroBitacoraController::class, 'store']);
@@ -32,7 +32,7 @@ Route::get('/seleccionAula', [salaComputoController::class, 'create'])
     ->name('seleccionAula.index');
 
 // acceso de la bitacora para registro del maestro
-Route::get('/BitacoraAula', [maestroController::class, 'create1'])->name('bitacoraAula.index');
+Route::get('/BitacoraAula{Aula}', [maestroController::class, 'create1'])->name('bitacoraAula.index');
 Route::post('/registroMaestro', [maestroController::class, 'store'])->name('store');
 
 // Route::post('/cambiar_estado', [maestroController:: class,'cambiarEstado'])->name('cambiar_estado');
