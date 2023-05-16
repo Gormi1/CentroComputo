@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\CComputoController;
-use App\Http\Controllers\CComputoBController;
-use App\Http\Controllers\maestroController;
-
-use App\Http\Controllers\salaComputoController;
-use App\Http\Controllers\registroBitacoraController;
+use App\Http\Controllers\ControllerSistema\CComputoController;
+use App\Http\Controllers\ControllerSistema\CComputoBController;
+use App\Http\Controllers\ControllerSistema\maestroController;
+use App\Http\Controllers\ControllerSistema\salaComputoController;
+use App\Http\Controllers\ControllerSistema\registroBitacoraController;
 
 use Illuminate\Support\Facades\Route;
 

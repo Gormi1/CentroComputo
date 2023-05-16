@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\ControllerSistema;
 
-use App\Models\computadoras;
+use App\Http\Controllers\Controller;
+use App\Models\ModelSistema\computadoras;
 use Illuminate\Http\Request;
 
 class computadorasController extends Controller

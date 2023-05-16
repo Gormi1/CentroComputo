@@ -1,7 +1,8 @@
 <?php
-namespace App\Http\Controllers;
-use App\Models\maestro;
-use App\Models\bitacoraMaestro;
+namespace App\Http\Controllers\ControllerSistema;
+use App\Http\Controllers\Controller;
+use App\Models\ModelSistema\maestro;
+use App\Models\ModelSistema\bitacoraMaestro;
 use DB;
 use Illuminate\Http\Request;
 use DateTime;
