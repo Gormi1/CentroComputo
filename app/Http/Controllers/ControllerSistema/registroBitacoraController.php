@@ -1,19 +1,16 @@
 <?php
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\ControllerSistema;
 
-use App\Models\bitacora;
+use App\Http\Controllers\Controller;
+use App\Models\ModelSistema\bitacora;
 use Illuminate\Http\Request;
-
-
 
 class registroBitacoraController extends Controller
 {
-
     public function create($id, $vista)
     {
         return view('alumno.alumno', ['id' => $id, 'vista' => $vista]);
     }
-
 
     public function store(Request $request)
     {
@@ -26,7 +23,7 @@ class registroBitacoraController extends Controller
                 'NumEquipo' => 'required',
                 'Aula' => 'required',
             ]);
-
+            
             // Si los datos son validados, continúa con el procesamiento de los datos
             $registro = new bitacora;
             $matricula = $validatedData['Matricula'];
@@ -51,7 +48,7 @@ class registroBitacoraController extends Controller
                     $error = 'error';
                     return back()->with($error, $msg);
                 }
-
+            
         // return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado valla a su lugar');
         } catch (\Illuminate\Validation\ValidationException $e) {
             // Mostrar una alerta al usuario indicando que se requieren los campos

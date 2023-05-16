@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Models;
+namespace app\Models\ModelSistema;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NombreDelModelo extends Model
+class computadoras extends Model
 {
     use HasFactory;
+    protected $table = 'computadoras';
 }

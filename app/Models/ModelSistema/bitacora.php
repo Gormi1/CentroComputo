@@ -1,5 +1,6 @@
 <?php
-namespace App\Models;
+
+namespace app\Models\ModelSistema;
 
 use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

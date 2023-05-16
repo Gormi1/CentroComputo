@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use Dotenv\Exception\ValidationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 
@@ -45,4 +46,12 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    // protected function invalidJson($request, ValidationException $exception)
+    // {
+    //     return response()->json([
+    //         'message' => __('Los datos proporcionados no son válidos.'),
+    //         'errors' => $exception->errors(),
+    //     ], $exception->status);
+    // }
 }
