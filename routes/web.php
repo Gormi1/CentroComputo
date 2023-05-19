@@ -5,7 +5,8 @@ use App\Http\Controllers\ControllerSistema\CComputoBController;
 use App\Http\Controllers\ControllerSistema\maestroController;
 use App\Http\Controllers\ControllerSistema\salaComputoController;
 use App\Http\Controllers\ControllerSistema\registroBitacoraController;
-
+use App\Http\Controllers\ControllerSistema\computadorasController;
+use App\Http\Controllers\adminController;
 use Illuminate\Support\Facades\Route;
 
 use Symfony\Component\HttpKernel\DependencyInjection\RegisterControllerArgumentLocatorsPass;
@@ -22,6 +23,19 @@ Route::post('/registro', [registroBitacoraController::class, 'store']);
 
 // acceso a la ruta para el maestro del login
 Route::get('/maestro', [maestroController::class, 'create'])->name('maestro.index');
+
+// acceso a la ruta para el ADMINISTRADOR
+Route::get('/administrador', [adminController::class, 'create'])->name('admin.index');
+// acceso para las reservaciones
+Route::get('/reserva', [adminController::class, 'index'])->name('admin.datos');
+Route::get('/pdf', [adminController::class, 'generarPDF'])->name('admin.generarpdf');
+Route::get('/pdfDownload', [adminController::class, 'descargarPDF'])->name('admin.generarpdf');
+// ruta para cambiar los estados de las computadoras
+Route::get('/cambiarEstados', [computadorasController::class, 'modificarEstados'])
+    ->name('equipo.computadoras');
+    Route::put('/tabla/{id}', 'TablaController@update')->name('tabla.update');
+
+// *******************FIN ADMINISTRADOR 
 
 // acceso para ver si existe el usuario en la base de datos del maestro
 Route::post('/salaMaestro', [maestroController::class, 'validarClave'])->name('validar-clave');
@@ -45,4 +59,5 @@ Route::get('/computoB', [CComputoBController::class, 'create'])
 
     // ruta para ver los estados del div
     Route::get('/obtener-estado', 'computadorasController@obtenerEstado');
-
+// asi si agarra  la cponsulta
+    Route::get('/obtenerestado', [computadorasController::class,'obtenerEstado']);

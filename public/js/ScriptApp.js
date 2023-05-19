@@ -2,6 +2,20 @@
 const Equipo = () =>{
     window.location.href = '/computo';
 }
+const pdf  = () =>{
+    window.location.href = '/pdf';
+}
+const pdfdescarga  = () =>{
+    window.location.href = '/pdfDownload';
+}
+const Mantenimiento  = () =>{
+    window.location.href = '/cambiarEstados';
+}
+
+const Reservacion  = () =>{
+    window.location.href = '/reserva';
+}
+
 
 const Aula = () => {
     window.location.href = '/maestro';
@@ -10,7 +24,10 @@ const Aula = () => {
 const home = () => {
     window.location.href = '/';
 }
-
+// para la vista del administrador
+const homeAdmin = () => {
+    window.location.href = '/administrador';
+}
 const SelectAula = (Aula) =>{
     let url = "/BitacoraAula"+Aula;
     
