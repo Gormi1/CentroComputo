@@ -319,3 +319,8 @@ span.lap {
     padding-bottom: 20px;
 }
 
+/* apartado de la pagina actualizar del administrador  */
+td.Actualizar{
+    background-color: rgb(91, 235, 91);
+    padding: 10px
+}
