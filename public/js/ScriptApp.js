@@ -3,9 +3,8 @@ const Equipo = () =>{
     window.location.href = '/computo';
 }
 const pdf  = () =>{
-    window.location.href = '/buscarDatos';
+    window.location.href = '/pdf';
 }
-
 const pdfdescarga  = () =>{
     window.location.href = '/pdfDownload';
 }
