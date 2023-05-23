@@ -35,22 +35,13 @@
                         {{-- boton para regresar a pantalla admin lado izquierdo --}}
                         
                         {{-- boton para descargar pdf de lado derecho --}}
-                        {{-- <button  class="btn btn-success  ml-auto" type="submit" onclick="pdfdescarga()">Descargar pdf</button> --}}
+                        <button  class="btn btn-success  ml-auto" type="submit" onclick="pdfdescarga()">Descargar pdf</button>
                       </div>
                       <br>
                       <div class="d-flex justify-content-end">
                        
                       </div>
-                    
-                      <form action="{{ route('admin.buscarfecha') }}" method="POST">
-                        @csrf
-                        <div class="form-group">
-                            <label for="fecha">Fecha:</label>
-                            <input type="date" name="fecha" id="fecha" class="form-control" required>
-                        </div>
-                        <button type="submit" class="btn btn-success  ml-auto">Buscar</button>
-                    </form>
-{{--                   
+                  
                     <thead class="thead-dark">
                         <tr>
                             <th>Matricula</th>
@@ -69,7 +60,7 @@
                                 <td>{{ $dato->horaEntrada }}</td>
                                 <td>{{ $dato->HoraSalida }}</td>
                             </tr>
-                        @endforeach --}}
+                        @endforeach
                     </tbody>
                 </table>
              

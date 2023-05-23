@@ -1,12 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\ModelSistema\bitacora;
 use App\Models\ModelSistema\bitacoraMaestro;
 use Dompdf\Dompdf;
 use PDF;
-use Carbon\Carbon;
 use Illuminate\Support\Facades\View;
 
 
@@ -27,62 +25,38 @@ class adminController extends Controller
 
         return view('admin.Reservacion', compact('datos'));
     }
-    public function vistaFecha()
+    public function generarPDF()
     {
-       
-        return view('admin.buscafecha');
-
-    }
-
-
-
-    // metodo para buscar por fecha 
-    public function buscarPorFecha(Request $request)
-    {
-        $fechaIngresada = $request->input('fecha');
-
-        $datos = bitacora::whereDate('created_at', Carbon::parse($fechaIngresada)->toDateString())->get();
-
-        // return view('admin.Reservacion', compact('datos'));
-        // dd($datos);
-        return view('admin.generapdf', compact('datos'));
-    }
-
-
-
-    public function descargarPDF()
-    {
-    //     $datos =bitacora::all();
-    //     // Obtén los datos necesarios para el PDF
-
-    // $html = View::make('admin.pdf', compact('datos'))->render();
-    
-    // $dompdf = new Dompdf();
-    // $dompdf->loadHtml($html);
-    // $dompdf->render();
-    
-    // $dompdf->stream('reporte.pdf', ['Attachment' => false]);
         $datos = bitacora::all();
+        return view('admin.generarpdf', compact('datos'));
+       
+}
 
-        // Crea una nueva instancia de Dompdf
-        $pdf = new Dompdf();
+public function descargarPDF()
+{
+    $datos = bitacora::all();
 
-        // Renderiza la vista con los datos en el PDF
-        $html = view('admin.pdf', compact('datos'))->render();
+    // Crea una nueva instancia de Dompdf
+    $pdf = new Dompdf();
 
-        // Carga el contenido HTML al objeto Dompdf
-        $pdf->loadHtml($html);
+    // Renderiza la vista con los datos en el PDF
+    $html = view('admin.pdf', compact('datos'))->render();
 
-        // Opcional: Puedes ajustar las opciones de configuración de Dompdf aquí
-        // $pdf->setOption('key', 'value');
+    // Carga el contenido HTML al objeto Dompdf
+    $pdf->loadHtml($html);
 
-        // Renderiza el PDF
-        $pdf->render();
+    // Opcional: Puedes ajustar las opciones de configuración de Dompdf aquí
+    // $pdf->setOption('key', 'value');
 
-        // Guarda el PDF en una ubicación específica (opcional)
-        // $pdf->save('/ruta/para/guardar/el/pdf.pdf');
+    // Renderiza el PDF
+    $pdf->render();
 
-        // Devuelve el PDF al navegador para su descarga
-        return $pdf->stream('nombre-del-archivo.pdf');
-    }
+    // Guarda el PDF en una ubicación específica (opcional)
+    // $pdf->save('/ruta/para/guardar/el/pdf.pdf');
+
+    // Devuelve el PDF al navegador para su descarga
+    return $pdf->stream('nombre-del-archivo.pdf');
+}
+
+
 }
