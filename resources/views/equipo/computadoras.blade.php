@@ -30,37 +30,54 @@
                     <table class="table table-striped table-bordered">
                         <thead class="thead-dark">
                             <tr>
-                                 <th>Equipo</th>
-                                    <th>Aula</th>
-                                    <th>Estado</th>
-                                    
+                                <th>Equipo</th>
+                                <th>Aula</th>
+                                <th>Estado</th>
+
                             </tr>
                         </thead>
                         <tbody>
                             @foreach ($datos as $dato)
-                            <tr>
-                                <td>{{ $dato->Equipo }}</td>
-                                <td>{{ $dato->Aula }}</td>
-                                {{-- el campo donde actualizo el dato --}}
-                                <td>
-                                    <form action="{{ route('tabla.update', ['id' => $dato->id]) }}" method="POST">
-                                        @csrf
-                                        @method('PUT')
-                                        <select name="estado">
-                                            <option value="Disponible" {{ $dato->Estado == 'Ocupado' ? 'selected' : '' }}>Disponible</option>
-                                            <option value="Mantenimiento" {{ $dato->Estado == 'Mantenimiento' ? 'selected' : '' }}>Mantenimiento</option>
-                                        </select>
-                                        <button type="submit">Actualizar</button>
-                                    </form>
-                                </td>
-                                
-                            </tr>
-                        @endforeach
+                                <tr>
+                                    <td>{{ $dato->Equipo }}</td>
+                                    <td>{{ $dato->Aula }}</td>
+                                    {{-- el campo donde actualizo el dato --}}
+                                    {{-- <td> {{ $dato->Estado }} </td> --}}
+                                    <td>
+                                        <form action="{{ route('equipo.computadoras.update', ['id' => $dato->id]) }}"
+                                            method="POST">
+                                            @csrf
+                                            @method('PUT')
+                                            <select name="estado">
+                                                <option value="Disponible"
+                                                    {{ $dato->Estado == 'Disponible' ? 'selected' : '' }}>Disponible
+                                                </option>
+                                                <option value="Mantenimiento"
+                                                    {{ $dato->Estado == 'Mantenimiento' ? 'selected' : '' }}>Mantenimiento
+                                                </option>
+                                                <option value="Ocupado" {{ $dato->Estado == 'Ocupado' ? 'selected' : '' }}>
+                                                    Ocupado</option>
+                                            </select>
+                                            <button type="submit">Actualizar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-
+ {{-- alerta para mostrar un apartado exitoso --}}
+ @if (session('success'))
+ <script>
+     Swal.fire({
+         title: 'Registro exitoso',
+         text: 'Tu equipo ha sido actualizado',
+         icon: 'success',
+         confirmButtonText: 'Aceptar'
+     });
+ </script>
+@endif
 @endsection

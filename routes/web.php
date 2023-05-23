@@ -36,7 +36,9 @@ Route::get('/pdfDownload', [adminController::class, 'descargarPDF'])->name('admi
 // ruta para cambiar los estados de las computadoras
 Route::get('/cambiarEstados', [computadorasController::class, 'modificarEstados'])
     ->name('equipo.computadoras');
-    Route::put('/tabla/{id}', 'TablaController@update')->name('tabla.update');
+//   agregar el de actualizar el equipo 
+Route::put('/equipo/computadoras/{id}', [computadorasController::class, 'update'])->name('equipo.computadoras.update');
+
 
 // *******************FIN ADMINISTRADOR 
 
