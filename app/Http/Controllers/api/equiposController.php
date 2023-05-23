@@ -34,19 +34,42 @@ class equiposController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show($id)
+    public function show($Equipo, $Aula)
     {
         try {
-            $equipo = equipos::findOrFail($id);
+            $equipo = equipos::where('Equipo', $Equipo)
+            ->where('Aula', $Aula)
+            ->firstOrFail();
+
             return response()->json([
                 'respuesta' => true,
-                'message' => 'Registro encontrado exitosamente',
+                'message' => 'Equipo encontrado exitosamente',
                 'equipo' => $equipo
             ],200);
         } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $ex) {
             return response()->json([
                 'respuesta' => false,
-                'message' => 'El registro no existe'
+                'message' => 'El Equipo no existe'
+            ]);
+        }
+    }
+
+    public function show2($Equipo, $Aula)
+    {
+        try {
+            $equipo = equipos::where('Equipo', $Equipo)
+            ->where('Aula', $Aula)
+            ->firstOrFail();
+
+            return response()->json([
+                'respuesta' => true,
+                'message' => 'Equipo encontrado exitosamente',
+                'equipo' => $equipo
+            ],200);
+        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $ex) {
+            return response()->json([
+                'respuesta' => false,
+                'message' => 'El Equipo no existe'
             ]);
         }
     }
@@ -54,33 +77,49 @@ class equiposController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(actualizarEquipoRequest $request, string $id)
+    public function update(actualizarEquipoRequest $request, $Equipo, $Aula)
     {
-        $equipo = equipos::findOrFail($id);
-        $equipo->update($request->all());
-        return response()->json([
-            "respuesta" => true,
-            "message" => 'Equipo actualizado correctamente',
-        ],200);
+        try {
+            $equipo = equipos::where('Equipo', $Equipo)
+                ->where('Aula', $Aula)
+                ->firstOrFail();
+
+            $equipo->estado = $request->input('Estado');
+            $equipo->save();
+        
+            return response()->json([
+                "respuesta" => true,
+                "message" => 'Equipo actualizado correctamente',
+            ], 200);
+        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $ex) {
+            return response()->json([
+                "respuesta" => false,
+                "message" => 'El Equipo no existe',
+            ]);
+        }
     }
+
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
-    {   
-        $equipo = equipos::find($id);
+    public function destroy($Equipo, $Aula)
+    {
+        try {
+            $equipo = equipos::where('Equipo', $Equipo)
+                ->where('Aula', $Aula)
+                ->firstOrFail();
 
-        if ($equipo) {
             $equipo->delete();
+
             return response()->json([
-                'respuesta' => true,
-                'message' => 'El equipo ha sido eliminado correctamente'
-            ]);
-        } else {
+                "respuesta" => true,
+                "message" => 'Equipo eliminado correctamente',
+            ], 200);
+        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $ex) {
             return response()->json([
-                'respuesta' => false,
-                'message' => 'El equipo no existe'
+                "respuesta" => false,
+                "message" => 'El registro no existe',
             ]);
         }
     }

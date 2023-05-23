@@ -30,10 +30,9 @@
                     <table class="table table-striped table-bordered">
                         <thead class="thead-dark">
                             <tr>
-                                 <th>Equipo</th>
-                                    <th>Aula</th>
-                                    <th>Estado</th>
-                                    
+                                <th>Equipo</th>
+                                <th>Aula</th>
+                                <th>Estado</th>
                             </tr>
                         </thead>
                         <tbody>
