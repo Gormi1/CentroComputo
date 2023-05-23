@@ -14,12 +14,10 @@ return new class extends Migration {
             $table->id();
             $table->string('Matricula');
             $table->string('Usuario');
-
             $table->string('NumEquipo');
             $table->string('Aula');
             $table->string('horaEntrada');
             $table->string('HoraSalida');
-
             $table->timestamps();
 
 
