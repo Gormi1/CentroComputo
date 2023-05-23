@@ -18,16 +18,16 @@
                 </div>
             </div>
             <div class="flex-grow-1 ">
-                <h1 class=" text-center pt-sm-3 ">Centro de Cómputo | Reservaciones Maestro</h1><br>
+                <h1 class=" text-center pt-sm-3 ">Centro de Cómputo | Mantenimiento Equipo</h1><br>
             </div>
         </div>
     </nav>
 
-    <div class="container p-5">
-        <div class="row justify-content-center">
-            <div class="col-md-15">
+    <div class=" p-5">
+        <div class="">
+            <div class="">
                 <div class="table-responsive">
-                    <table class="table table-striped table-bordered">
+                    <table class="table table-striped table-bordered table table-success">
                         <thead class="thead-dark">
                             <tr>
                                 <th>Equipo</th>
@@ -37,24 +37,46 @@
                         </thead>
                         <tbody>
                             @foreach ($datos as $dato)
-                            <tr>
-                                <td>{{ $dato->Equipo }}</td>
-                                <td>{{ $dato->Aula }}</td>
-                                <td>
-                                    <form action="{{ route('tabla.update', ['id' => $dato->id]) }}" method="POST">
-                                        @csrf
-                                        @method('PUT')
-                                        <input type="text" name="estado" value="{{ $dato->Estado }}">
-                                        <button type="submit">Actualizar</button>
-                                    </form>
-                                </td>
-                            </tr>
-                        @endforeach
+                                <tr>
+                                    <td>{{ $dato->Equipo }}</td>
+                                    <td>{{ $dato->Aula }}</td>
+                                    {{-- el campo donde actualizo el dato --}}
+                                    {{-- <td> {{ $dato->Estado }} </td> --}}
+                                    <td class="actualizar">
+                                        <form action="{{ route('equipo.computadoras.update', ['id' => $dato->id]) }}"
+                                            method="POST" id="Actualizar">
+                                            @csrf
+                                            @method('PUT')
+                                            <select name="estado">
+                                                <option value="Disponible"
+                                                    {{ $dato->Estado == 'Disponible' ? 'selected' : '' }}>Disponible
+                                                </option>
+                                                <option value="Mantenimiento"
+                                                    {{ $dato->Estado == 'Mantenimiento' ? 'selected' : '' }}>Mantenimiento
+                                                </option>
+                                                <option value="Ocupado" {{ $dato->Estado == 'Ocupado' ? 'selected' : '' }}>
+                                                    Ocupado</option>
+                                            </select>
+                                            <button type="submit">Actualizar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-
+ {{-- alerta para mostrar un apartado exitoso --}}
+ @if (session('success'))
+ <script>
+     Swal.fire({
+         title: 'Registro exitoso',
+         text: 'Tu equipo ha sido actualizado',
+         icon: 'success',
+         confirmButtonText: 'Aceptar'
+     });
+ </script>
+@endif
 @endsection
