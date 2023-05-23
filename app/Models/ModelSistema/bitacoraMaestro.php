@@ -13,6 +13,7 @@ class bitacoraMaestro extends Model
         'Grupo',
         'Materia',
         'NumAlumno',
+        'aula',
         'Day',
         'Month',
         'HoraEntrada',

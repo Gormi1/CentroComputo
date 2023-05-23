@@ -33,7 +33,6 @@
                                 <th>Equipo</th>
                                 <th>Aula</th>
                                 <th>Estado</th>
-
                             </tr>
                         </thead>
                         <tbody>

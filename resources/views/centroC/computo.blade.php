@@ -53,21 +53,65 @@
     </div>
 
     <script>
+
+        let url = "/api/equipos/"
+        
+
         //función para mostrar a las computadoras con un método for
         const cargarPc = () =>{
-            //se selecciona el contenedor para poder trabajar sobe este
-            let tablero = document.getElementById("contenedor");
-            //se crea un arreglo donde se guardan los equipos
-            let tarjetas = [];
-            //for donde se guardan las 24 lineas html de los equipos
-            //además de tener la función de poder ir al link de apartado de equipo junto con la id
-            for (let i = 1; i <= 24; i++) {
-                tarjetas.push(`
-                <div class="box" data-id="${i}" onclick="seleccionarEquipo(${i},'A')" ><i class="fa fa-solid fa-computer fa-2x">{{ "\n" }}${+i}</i></div>
-                `)
-            }
-            //se insertan los 24 equipos en el contenedor
-            tablero.innerHTML = tarjetas.join(" ");
+            
+            $.ajax({
+            type: "GET",
+            url: url,
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+
+                // Verificar que "equipos" sea un array
+                if (Array.isArray(data.Computadoras)) {
+                    // Filtrar los elementos que cumplan con la condición deseada
+                    var ComputadorasFiltrados = data.Computadoras.filter(function(Computadoras) {
+                    return Computadoras.Aula === 'A';
+                    });
+
+                    // Utilizar el resultado filtrado
+                    console.log(ComputadorasFiltrados);
+                } else {
+                    console.log("La propiedad 'equipos' no es un array en la respuesta");
+                }
+
+                let tablero = document.getElementById("contenedor");
+                let tarjetas = [];
+
+                // Recorre el array de computadoras filtradas y crea las tarjetas
+                ComputadorasFiltrados.forEach((Computadoras) => {
+                    let estado = Computadoras.Estado;
+                    let color = "";
+
+                    // Asigna el color correspondiente según el estado
+                    switch (estado) {
+                        case "Disponible":
+                        color = "lightgray";
+                        break;
+                        case "Ocupado":
+                        color = "rgb(0, 176, 80)";
+                        break;
+                        case "Mantenimiento":
+                        color = "rgb(232, 130, 63)";
+                        break;
+                        default:
+                        color = "lightgray";
+                    }
+
+                    tarjetas.push(`
+                        <div class="box" data-id="${Computadoras.id}" onclick="seleccionarEquipo(${Computadoras.Equipo}, 'A')" style="background-color: ${color};">
+                        <i class="fa fa-solid fa-computer fa-2x">{{ "\n" }}${Computadoras.Equipo}</i>
+                        </div>
+                    `);
+                });
+                    tablero.innerHTML = tarjetas.join(" ");      
+                },
+            });
         }
 
         //función para poder ir a la sección de apartado
