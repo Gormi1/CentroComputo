@@ -23,9 +23,9 @@
         </div>
     </nav>
 
-    <div class="container p-5">
-        <div class="row justify-content-center">
-            <div class="col-md-15">
+    <div class=" p-5">
+        <div class="">
+            <div class="">
                 <div class="table-responsive">
                     <table class="table table-striped table-bordered">
                         <thead class="thead-dark">
@@ -41,14 +41,19 @@
                             <tr>
                                 <td>{{ $dato->Equipo }}</td>
                                 <td>{{ $dato->Aula }}</td>
+                                {{-- el campo donde actualizo el dato --}}
                                 <td>
                                     <form action="{{ route('tabla.update', ['id' => $dato->id]) }}" method="POST">
                                         @csrf
                                         @method('PUT')
-                                        <input type="text" name="estado" value="{{ $dato->Estado }}">
+                                        <select name="estado">
+                                            <option value="Disponible" {{ $dato->Estado == 'Ocupado' ? 'selected' : '' }}>Disponible</option>
+                                            <option value="Mantenimiento" {{ $dato->Estado == 'Mantenimiento' ? 'selected' : '' }}>Mantenimiento</option>
+                                        </select>
                                         <button type="submit">Actualizar</button>
                                     </form>
                                 </td>
+                                
                             </tr>
                         @endforeach
                         </tbody>
