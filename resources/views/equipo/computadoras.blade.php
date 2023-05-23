@@ -27,7 +27,7 @@
         <div class="">
             <div class="">
                 <div class="table-responsive">
-                    <table class="table table-striped table-bordered">
+                    <table class="table table-striped table-bordered table table-success">
                         <thead class="thead-dark">
                             <tr>
                                 <th>Equipo</th>
@@ -43,9 +43,9 @@
                                     <td>{{ $dato->Aula }}</td>
                                     {{-- el campo donde actualizo el dato --}}
                                     {{-- <td> {{ $dato->Estado }} </td> --}}
-                                    <td>
+                                    <td class="actualizar">
                                         <form action="{{ route('equipo.computadoras.update', ['id' => $dato->id]) }}"
-                                            method="POST">
+                                            method="POST" id="Actualizar">
                                             @csrf
                                             @method('PUT')
                                             <select name="estado">

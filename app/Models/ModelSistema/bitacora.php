@@ -14,11 +14,9 @@ class bitacora extends Model
     protected $fillable = [
         'Matricula',
         'Usuario',
-         'NumEquipo', 
-         'Aula',
         'HoraEntrada',
         'HoraSalida',
-
-      
+        'NumEquipo',
+        'Aula',
     ];
 }
