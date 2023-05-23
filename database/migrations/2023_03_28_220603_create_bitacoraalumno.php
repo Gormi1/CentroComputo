@@ -22,7 +22,7 @@ return new class extends Migration {
 =======
             $table->string('NombrePC');
             $table->string('Nobre-Sala');
-          
+            
 >>>>>>> 79d992eb8240a595553e1a02e74dd2e6d82d400e
             $table->timestamps();
 
