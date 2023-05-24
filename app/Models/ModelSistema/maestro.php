@@ -12,6 +12,7 @@ class maestro extends Model
     protected $fillable = [
 
         'Clave',
+        'maestro',
 
     ];
 }

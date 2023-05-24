@@ -51,6 +51,14 @@
                     </div>
                     <div>
                         <div class="select">
+                            <p class="label">Carrera</p>
+                        </div>
+                        <div><i class="icono fas fa-regular fa-school text-dark"></i> 
+                        <!-- input[Type="Text"] de la carrera -->
+                        <input type="text" name="Carrera" id="Carrera">
+                    </div>
+                    <div>
+                        <div class="select">
                             <p class="label">Número de alumnos</p>
                         </div>
                         <div><i class="icono fas fa-user text-dark"></i> 

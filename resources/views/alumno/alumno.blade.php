@@ -76,7 +76,7 @@
         <div>        
             <div class="row col-md-8">
                 <h2 class="fas fa-solid fa-computer fa-2x d-flex align-items-center justify-content-center" id="icon">   {{$id}}{{$vista}}</h2>
-                <button id="Regresar" class="text-center btn-acs-maestro" onclick="Equipo()">Regresar</button>
+                <button id="Regresar" class="text-center btn-acs-maestro" onclick="Equipo()">Regresar</button>   
             </div>
         </div>
     </div>

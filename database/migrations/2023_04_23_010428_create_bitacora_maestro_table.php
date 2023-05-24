@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('Grupo');
             $table->string('Materia');
+            $table->string('Carrera');
             $table->string('NumAlumno');
             $table->string("Aula");
             $table->string('Day');

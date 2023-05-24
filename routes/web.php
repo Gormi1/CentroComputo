@@ -9,9 +9,6 @@ use App\Http\Controllers\ControllerSistema\computadorasController;
 use App\Http\Controllers\adminController;
 use Illuminate\Support\Facades\Route;
 
- 
-
-
 use Symfony\Component\HttpKernel\DependencyInjection\RegisterControllerArgumentLocatorsPass;
 
 //ruta de la pagina principal
