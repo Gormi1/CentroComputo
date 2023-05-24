@@ -47,7 +47,6 @@ class maestroController extends Controller
                     $success = 'success';
                     $mensaje = 'Accedió Correctamente';
 
-
                     return redirect('/seleccionAula')->with($success, $mensaje);
                 } else {
                     //muestra una alerta de error al mostrar datos incorrectos

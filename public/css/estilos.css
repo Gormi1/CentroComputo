@@ -284,8 +284,13 @@ a.a-white {
     color: white;
     width: 300px;
 }
+
+.disponible {
+    background-color:rgb(228, 105, 23); /* Color cuando el estado es "Disponible" */
+}
+
 .ocupado {
-    background-color: red;
+    background-color: rgb(43, 43, 43); /* Color cuando el estado es "Ocupado" */
 }
 
 /* termina div maestro de la sala computo  (235, 112, 29); */

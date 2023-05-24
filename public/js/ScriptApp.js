@@ -31,19 +31,5 @@ const home = () => {
 const homeAdmin = () => {
     window.location.href = '/administrador';
 }
-const SelectAula = (Aula) =>{
-    let url = "/BitacoraAula"+Aula;
-    
-    $.ajax({
-        type: "GET",
-        url: url,
-        success: function(response) {
-            // Aquí puedes manejar la respuesta del controlador, como mostrarla en la vista
-            window.location.href = '/BitacoraAula'+Aula;
-            console.log(response);
-        },
-        error: function(error) {
-            console.log(error);
-        }
-    });
-}
+
+

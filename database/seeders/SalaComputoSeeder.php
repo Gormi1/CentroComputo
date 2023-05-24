@@ -14,14 +14,12 @@ class SalaComputoSeeder extends Seeder
     {
         DB::table('sala_computo')->insert([
             [
-                
                 'Aula'=>'A',
                 'Estado'=>'Disponible',
                 'created_at' => date('y-m-d H:i:s'),
                 'updated_at' => date('y-m-d H:i:s'),
             ],
             [
-               
                 'Aula'=>'B',
                 'Estado'=>'Disponible',
                 'created_at' => date('y-m-d H:i:s'),
