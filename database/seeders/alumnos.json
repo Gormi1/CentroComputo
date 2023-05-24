@@ -1,0 +1,3761 @@
+[
+    {
+    "Matricula": "19-01-0058",
+    "Nombre": "ALFONSO MONSERRAT",
+    "Primer apellido": "IBARRA",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0056",
+    "Nombre": "GABRIELA GUADALUPE",
+    "Primer apellido": "GUTIERREZ",
+    "Segundo apellido": "MORALES",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "17-03-0084",
+    "Nombre": "JORGE ABEL",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-02-0071",
+    "Nombre": "GONZALO",
+    "Primer apellido": "MEDINA",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "16-05-0006",
+    "Nombre": "DARIO ALFONSO",
+    "Primer apellido": "GUERRERO",
+    "Segundo apellido": "QUIJADA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-03-0087",
+    "Nombre": "URIEL",
+    "Primer apellido": "RAMIREZ",
+    "Segundo apellido": "SANTA CRUZ",
+    "Grupo": "LAEP 4-1"
+    },
+    {
+    "Matricula": "17-01-0001",
+    "Nombre": "MIGUEL ANGEL",
+    "Primer apellido": "ORANTES",
+    "Segundo apellido": "QUINTANA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "17-01-0011",
+    "Nombre": "MERCEDES",
+    "Primer apellido": "GARDEA",
+    "Segundo apellido": "MARQUEZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "17-02-0017",
+    "Nombre": "JOSE FERNANDO",
+    "Primer apellido": "SALCIDO",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "18-01-0029",
+    "Nombre": "JOSEFINA GUADALUPE",
+    "Primer apellido": "LEYVA",
+    "Segundo apellido": "NAVARRO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "17-02-0026",
+    "Nombre": "AGUSTIN",
+    "Primer apellido": "LOPEZ",
+    "Segundo apellido": "CARAVEO",
+    "Grupo": "IIPC 9-1"
+    },
+    {
+    "Matricula": "17-01-0041",
+    "Nombre": "JOSE JESUS",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "SALCIDO",
+    "Grupo": "LB 9-1"
+    },
+    {
+    "Matricula": "17-01-0023",
+    "Nombre": "ZAIRA BERENICE",
+    "Primer apellido": "GALDEAN",
+    "Segundo apellido": "CASTRO",
+    "Grupo": "LB 9-1"
+    },
+    {
+    "Matricula": "18-05-0028",
+    "Nombre": "GARDENIA ESMERALDA",
+    "Primer apellido": "MARES",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-03-0088",
+    "Nombre": "ELI",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "MORAN",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "17-02-0023",
+    "Nombre": "CARLOS IVAN",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "LORETO",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "17-02-0001",
+    "Nombre": "CARLOS EDUARDO",
+    "Primer apellido": "MUNGARAY",
+    "Segundo apellido": "RAMONET",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "17-03-0082",
+    "Nombre": "ADRIAN",
+    "Primer apellido": "SOLORIO",
+    "Segundo apellido": "SOLORIO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "18-02-0002",
+    "Nombre": "JESSICA SARAI",
+    "Primer apellido": "GIJON",
+    "Segundo apellido": "REYES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "18-05-0002",
+    "Nombre": "DAVID",
+    "Primer apellido": "AMAVIZCA",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-05-0006",
+    "Nombre": "MARCO ANTONIO",
+    "Primer apellido": "BECERRIL",
+    "Segundo apellido": "DORANTES",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-05-0009",
+    "Nombre": "VICTOR JOAN",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "MACIAS",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-01-0044",
+    "Nombre": "MIGUEL ANGEL",
+    "Primer apellido": "MALDONADO",
+    "Segundo apellido": "GERMAN",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-05-0037",
+    "Nombre": "GREGORIO",
+    "Primer apellido": "VIDAÑA",
+    "Segundo apellido": "ESPINOZA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-02-0014",
+    "Nombre": "JOSE JAVIER",
+    "Primer apellido": "ANGULO",
+    "Segundo apellido": "PEÑA",
+    "Grupo": "IIPC 9-1"
+    },
+    {
+    "Matricula": "18-05-0017",
+    "Nombre": "MARIA GUADALUPE",
+    "Primer apellido": "AGUAYO",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-05-0018",
+    "Nombre": "ERICK MAURICIO",
+    "Primer apellido": "TOLANO",
+    "Segundo apellido": "SANTA CRUZ",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "18-06-0005",
+    "Nombre": "SANDRA ABIGAIL",
+    "Primer apellido": "OCAÑO",
+    "Segundo apellido": "FIEL",
+    "Grupo": "LATA 8-1"
+    },
+    {
+    "Matricula": "18-03-0042",
+    "Nombre": "OSKAR ALBERTO ",
+    "Primer apellido": "GOMEZ ",
+    "Segundo apellido": "RIOS",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "18-01-0013",
+    "Nombre": "DANIELA GUADALUPE",
+    "Primer apellido": "CANCHOLA",
+    "Segundo apellido": "ORTEGA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "18-05-0020",
+    "Nombre": "CESAR ABEL",
+    "Primer apellido": "RODRIGUEZ",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "18-02-0043",
+    "Nombre": "ALEJANDRA",
+    "Primer apellido": "GOMEZ",
+    "Segundo apellido": "CASTRO",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "18-03-0063",
+    "Nombre": "MARIO ABEL",
+    "Primer apellido": "SANCHEZ",
+    "Segundo apellido": "GOMEZ",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "18-02-0051",
+    "Nombre": "YULENY DANITZA",
+    "Primer apellido": "AHUMADA",
+    "Segundo apellido": "VEGA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "18-01-0017",
+    "Nombre": "JESUS DAVID",
+    "Primer apellido": "GIL",
+    "Segundo apellido": "PADILLA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "19-02-0001",
+    "Nombre": "BRAYAN BENJAMIN",
+    "Primer apellido": "BORCHARDT",
+    "Segundo apellido": "VERA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "19-02-0002",
+    "Nombre": "JESUS RAMON",
+    "Primer apellido": "ESPINOZA",
+    "Segundo apellido": "CAMPAS",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-05-0003",
+    "Nombre": "LUCIANO ANTONIO",
+    "Primer apellido": "MURRIETA",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-01-0002",
+    "Nombre": "OSWALDO",
+    "Primer apellido": "VALDEZ",
+    "Segundo apellido": "TAMAYO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-02-0003",
+    "Nombre": "DANIEL ISIDRO",
+    "Primer apellido": "MENDIVIL",
+    "Segundo apellido": "VILLA",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "19-03-0001",
+    "Nombre": "YANITZA GUADALUPE",
+    "Primer apellido": "VELAZQUEZ",
+    "Segundo apellido": "VALENZUELA",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-05-0004",
+    "Nombre": "DANIEL FERNANDO",
+    "Primer apellido": "HOYOS ",
+    "Segundo apellido": "MURRIETA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-01-0003",
+    "Nombre": "ASHLYN",
+    "Primer apellido": "ACOSTA",
+    "Segundo apellido": "SIQUEIROS",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-02-0005",
+    "Nombre": "DAVID ALEJANDRO",
+    "Primer apellido": "SANCHEZ",
+    "Segundo apellido": "BORBOA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-05-0005",
+    "Nombre": "FRANCISCO JAVIER",
+    "Primer apellido": "LOERA",
+    "Segundo apellido": "LORETO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-03-0002",
+    "Nombre": "JAVIER FERNANDO",
+    "Primer apellido": "LOERA",
+    "Segundo apellido": "LORETO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-01-0004",
+    "Nombre": "JUAN JOSE",
+    "Primer apellido": "VILLA",
+    "Segundo apellido": "RIVAS",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "19-02-0006",
+    "Nombre": "ANDREA ABIGAIL",
+    "Primer apellido": "AQUINO",
+    "Segundo apellido": "ESPINO",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0007",
+    "Nombre": "GUSTAVO ADOLFO",
+    "Primer apellido": "ANAYA",
+    "Segundo apellido": "ESPINO",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-01-0005",
+    "Nombre": "MANUEL IVAN",
+    "Primer apellido": "SAGASTA",
+    "Segundo apellido": "ALVAREZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0003",
+    "Nombre": "NUBIA GUADALUPE",
+    "Primer apellido": "GAMEZ",
+    "Segundo apellido": "PORTILLO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0004",
+    "Nombre": "ANDREA",
+    "Primer apellido": "SALAS",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-02-0013",
+    "Nombre": "MANUEL",
+    "Primer apellido": "DAVILA",
+    "Segundo apellido": "MACIAS",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0014",
+    "Nombre": "MAURICIO GUADALUPE",
+    "Primer apellido": "AGUILAR",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "19-02-0015",
+    "Nombre": "MIGUEL",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0016",
+    "Nombre": "ROSELA",
+    "Primer apellido": "CARDENAS",
+    "Segundo apellido": "MORALES",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0017",
+    "Nombre": "LUIS ANGEL",
+    "Primer apellido": "ROMO",
+    "Segundo apellido": "SOTO",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-01-0006",
+    "Nombre": "ANGELICA ISABEL",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "BENCOMO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0007",
+    "Nombre": "LORELY DHAMAR ",
+    "Primer apellido": "BENCOMO ",
+    "Segundo apellido": "LOZANO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0006",
+    "Nombre": "MAGALY SUSETH",
+    "Primer apellido": "LEYVA",
+    "Segundo apellido": "RODRIGUEZ",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-05-0010",
+    "Nombre": "ABEL",
+    "Primer apellido": "ALEMAN",
+    "Segundo apellido": "CUEVAS",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-02-0020",
+    "Nombre": "JOSE ESTEBAN",
+    "Primer apellido": "BANDA",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-03-0008",
+    "Nombre": "REYNA ESMERALDA",
+    "Primer apellido": "DAVILA",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-02-0021",
+    "Nombre": "RAFAEL ANTONIO",
+    "Primer apellido": "MORALES",
+    "Segundo apellido": "LARES",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "19-02-0022",
+    "Nombre": "LUIS ANGEL",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "CORONADO",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0023",
+    "Nombre": "CRISTOBAL",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "CAMACHO",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-01-0009",
+    "Nombre": "ANA PAULINA",
+    "Primer apellido": "GAMBOA",
+    "Segundo apellido": "NAVARRO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-05-0013",
+    "Nombre": "ALBERTO MANUEL ANGEL ",
+    "Primer apellido": "COTA",
+    "Segundo apellido": "SANTACRUZ",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-03-0011",
+    "Nombre": "AYLIN",
+    "Primer apellido": "URIAS",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0098",
+    "Nombre": "ROXANA MARGARITA",
+    "Primer apellido": "HERRERA",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0097",
+    "Nombre": "CRUZ DELIA",
+    "Primer apellido": "CARIAGA",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0012",
+    "Nombre": "JOSE ABRAHAM",
+    "Primer apellido": "YANEZ",
+    "Segundo apellido": "REYES",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0016",
+    "Nombre": "MARIA RENEE",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-06-0012",
+    "Nombre": "MAGALY GUADALUPE",
+    "Primer apellido": "CORDOVA ",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "LATA 8-1"
+    },
+    {
+    "Matricula": "19-02-0029",
+    "Nombre": "JOEL",
+    "Primer apellido": "VALENZUELA",
+    "Segundo apellido": "LOPEZ",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0030",
+    "Nombre": "GAMALIER ESTEBAN",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "ROBLES",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0031",
+    "Nombre": "MIGUEL TADEO",
+    "Primer apellido": "COTA",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0032",
+    "Nombre": "JULIA LUZ",
+    "Primer apellido": "LEON",
+    "Segundo apellido": "GERMAN",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0034",
+    "Nombre": "ERICK GABRIEL",
+    "Primer apellido": "BURRUEL",
+    "Segundo apellido": "LEON",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0033",
+    "Nombre": "ANGELES",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-01-0013",
+    "Nombre": "MARIA JOSE",
+    "Primer apellido": "GUTIERREZ",
+    "Segundo apellido": "BARRIOS",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-05-0019",
+    "Nombre": "BRISEIDA PAOLA",
+    "Primer apellido": "MORAGA",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-02-0036",
+    "Nombre": "SERGIO ELIZALDE",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "BURGOS",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-01-0017",
+    "Nombre": "LAURA JUDITH",
+    "Primer apellido": "FLORES ",
+    "Segundo apellido": "SANDOVAL",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0018",
+    "Nombre": "YAZBECK GUADALUPE",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "AGUAYO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0019",
+    "Nombre": "MINETTE ",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "FRANCO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-05-0020",
+    "Nombre": "ADRIAN ALEXIS",
+    "Primer apellido": "VALENZUELA",
+    "Segundo apellido": "NUÑEZ",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-01-0023",
+    "Nombre": "JOHANA ARANTZA",
+    "Primer apellido": "GIRON",
+    "Segundo apellido": "GIL",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0088",
+    "Nombre": "KARINA IVETH ",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "RIVERA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-01-0024",
+    "Nombre": "DALIA GUADALUPE",
+    "Primer apellido": "LUGO",
+    "Segundo apellido": "LOZANIA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-02-0038",
+    "Nombre": "YANIRA",
+    "Primer apellido": "OCHOA",
+    "Segundo apellido": "CELIZ",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0039",
+    "Nombre": "ESMERALDA",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "RODRIGUEZ",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-03-0023",
+    "Nombre": "ANA LOURDES",
+    "Primer apellido": "DOMINGUEZ ",
+    "Segundo apellido": "TANORI",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-06-0009",
+    "Nombre": "XIMENA",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "BUSTAMANTE",
+    "Grupo": "LATA 8-1"
+    },
+    {
+    "Matricula": "19-05-0021",
+    "Nombre": "JORGE HUMBERTO",
+    "Primer apellido": "CHENO",
+    "Segundo apellido": " OCAÑO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-05-0022",
+    "Nombre": "RAMON FRANCISCO",
+    "Primer apellido": "CHENO ",
+    "Segundo apellido": "OCAÑO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-03-0025",
+    "Nombre": "DULCE PATRICIA",
+    "Primer apellido": "GRIEGO",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0026",
+    "Nombre": "ANIEL HARAN",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-02-0044",
+    "Nombre": "MARIANNA CRISTINA",
+    "Primer apellido": "FIMBRES",
+    "Segundo apellido": "ACUÑA",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-03-0092",
+    "Nombre": "CLARISSA",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "VERDUZCO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0029",
+    "Nombre": "MARIA JOSE",
+    "Primer apellido": "ARVIZU",
+    "Segundo apellido": "QUINTANA",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0028",
+    "Nombre": "ANA CAREN",
+    "Primer apellido": "ANTONIO",
+    "Segundo apellido": "REYNA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-01-0033",
+    "Nombre": "ROXAIRA",
+    "Primer apellido": "ENCINAS",
+    "Segundo apellido": "GERMAN",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0030",
+    "Nombre": "JUDITH ALEJANDRA",
+    "Primer apellido": "TAMAYO",
+    "Segundo apellido": "CERVANTES",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0031",
+    "Nombre": "MARIA FERNANDA",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "DE LA REE",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0032",
+    "Nombre": "KRISTEN CRYSTAL ",
+    "Primer apellido": "ESCARCEGA",
+    "Segundo apellido": "BANDA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-05-0023",
+    "Nombre": "LINDA PALOMA",
+    "Primer apellido": "MONGE",
+    "Segundo apellido": "MUNGARRO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-03-0033",
+    "Nombre": "KASSANDRA",
+    "Primer apellido": "BUENO",
+    "Segundo apellido": "TATARA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-02-0047",
+    "Nombre": "KARIELA ELIZABETH",
+    "Primer apellido": "CANCHOLA",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-05-0025",
+    "Nombre": "SORAYA YAMILET",
+    "Primer apellido": "JIMENEZ",
+    "Segundo apellido": "ACEVEDO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-03-0039",
+    "Nombre": "MARIA YAMILETH",
+    "Primer apellido": "MONGE",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0040",
+    "Nombre": "RUBEN",
+    "Primer apellido": "MONROY",
+    "Segundo apellido": "LOPEZ",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0041",
+    "Nombre": "MARTIN",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-03-0044",
+    "Nombre": "RAYMUNDO",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "NAVARRO",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "19-03-0045",
+    "Nombre": "PAULINA",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "LAEP 8-2"
+    },
+    {
+    "Matricula": "19-01-0038",
+    "Nombre": "ANGELICA GUADALUPE",
+    "Primer apellido": "GUERRERO",
+    "Segundo apellido": "ESTRELLA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0039",
+    "Nombre": "ENRIQUE",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "SANCHEZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-06-0011",
+    "Nombre": "YANETH GUADALUPE",
+    "Primer apellido": "MOLINA",
+    "Segundo apellido": "OSORIO",
+    "Grupo": "LATA 8-1"
+    },
+    {
+    "Matricula": "19-02-0050",
+    "Nombre": "BRIAN ERNESTO",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0051",
+    "Nombre": "MARTHA BEATRIZ",
+    "Primer apellido": "BENITES",
+    "Segundo apellido": "RENTERIA",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-02-0052",
+    "Nombre": "JONATHAN",
+    "Primer apellido": "MORALES",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0054",
+    "Nombre": "YERANIA YAMILETH",
+    "Primer apellido": "OCHOA",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0055",
+    "Nombre": "ANAHI",
+    "Primer apellido": "GUERRERO",
+    "Segundo apellido": "MURRIETA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0056",
+    "Nombre": "PAOLA ELIANET",
+    "Primer apellido": "MURRIETA",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-05-0029",
+    "Nombre": "JESUS ABEL",
+    "Primer apellido": "AQUINO",
+    "Segundo apellido": "RIVERA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-02-0057",
+    "Nombre": "JESUS DAVID",
+    "Primer apellido": "OCHOA",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 8-2"
+    },
+    {
+    "Matricula": "19-02-0058",
+    "Nombre": "KAREN GUADALUPE",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "OCAÑO",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-01-0041",
+    "Nombre": "LAURA PATRICIA",
+    "Primer apellido": "GUTIERREZ",
+    "Segundo apellido": "VELASQUEZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0043",
+    "Nombre": "KAREN GUADALUPE",
+    "Primer apellido": "CAMPOS",
+    "Segundo apellido": "IGLESIAS",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0062",
+    "Nombre": "NALLELY AYLIN",
+    "Primer apellido": "NIEBLAS",
+    "Segundo apellido": "LUZANIA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0063",
+    "Nombre": "LESLY ELIZABETH",
+    "Primer apellido": "GARDUÑO ",
+    "Segundo apellido": "ANDRADE",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0066",
+    "Nombre": "VICTOR ALEJANDRO",
+    "Primer apellido": "QUINTANA",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "19-02-0061",
+    "Nombre": "ALBERTO",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "HERNANDEZ",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-01-0045",
+    "Nombre": "MARIA DE LOS ANGELES",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "CASTRO",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0070",
+    "Nombre": "JAZMIN",
+    "Primer apellido": "MORAN",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-03-0071",
+    "Nombre": "RENNESTIBALIZZ",
+    "Primer apellido": "AMAVIZCA",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "19-01-0047",
+    "Nombre": "DIANA MARBELLA",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "GODINEZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0048",
+    "Nombre": "JUAN SEBASTIAN",
+    "Primer apellido": "JUAREZ",
+    "Segundo apellido": "VILLA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-01-0049",
+    "Nombre": "EDGARD EDUARDO",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "19-03-0077",
+    "Nombre": "JESUS AXEL",
+    "Primer apellido": "RAMOS",
+    "Segundo apellido": "ANDANA",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "19-05-0035",
+    "Nombre": "CARLOS EDUARDO",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "19-05-0036",
+    "Nombre": "JESUS ANTONIO",
+    "Primer apellido": "GALINDO",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-05-0038",
+    "Nombre": "ELIOTH ANTONIO",
+    "Primer apellido": "TANORI",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "ISC 8-1"
+    },
+    {
+    "Matricula": "19-02-0065",
+    "Nombre": "MARCELA GUADALUPE",
+    "Primer apellido": "VEGA",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "19-03-0085",
+    "Nombre": "YURIVIA",
+    "Primer apellido": "DUARTE",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "LAEP 8-1"
+    },
+    {
+    "Matricula": "20-02-0008",
+    "Nombre": "JULIO CESAR",
+    "Primer apellido": "AGUIRRE",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0001",
+    "Nombre": "JUAN CARLOS",
+    "Primer apellido": "DORAME",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0004",
+    "Nombre": "LUIS FERNANDO",
+    "Primer apellido": "SILVA",
+    "Segundo apellido": "MADERO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0003",
+    "Nombre": "ALEJANDRO GUADALUPE",
+    "Primer apellido": "RUIZ",
+    "Segundo apellido": "MADERO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-05-0001",
+    "Nombre": "KEVIN HUMBERTO",
+    "Primer apellido": "URQUIJO",
+    "Segundo apellido": "LUZANIA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-02-0039",
+    "Nombre": "ALVARO JUNIOR",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "CAMPA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-05-0007",
+    "Nombre": "ROBERTO",
+    "Primer apellido": "ZUZUARREGUI",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-02-0002",
+    "Nombre": "JESUS ANDRES",
+    "Primer apellido": "CALIXTRO",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0001",
+    "Nombre": "DENISSE ESMERALDA",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "TAMAYO",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-01-0012",
+    "Nombre": "MARIA PAULETT",
+    "Primer apellido": "CHENO",
+    "Segundo apellido": "GUERRERO",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-05-0005",
+    "Nombre": "DANILO FERNANDO",
+    "Primer apellido": "ABRIL",
+    "Segundo apellido": "LEON",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "21-07-0026",
+    "Nombre": "LESLIE",
+    "Primer apellido": "OHLMAIER",
+    "Segundo apellido": "GAMEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-05-0002",
+    "Nombre": "JESUS EMMANUEL",
+    "Primer apellido": "LUGO",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-01-0017",
+    "Nombre": "LITZY DANIELA",
+    "Primer apellido": "GONZALEZ",
+    "Segundo apellido": "GODINEZ",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-01-0001",
+    "Nombre": "LAURA ALECZA",
+    "Primer apellido": "LORETO",
+    "Segundo apellido": "GIL",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-02-0017",
+    "Nombre": "CRUZ KARYME",
+    "Primer apellido": "RUIZ",
+    "Segundo apellido": "MOROYOQUI",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0009",
+    "Nombre": "EZIQUIA",
+    "Primer apellido": "CABRERA",
+    "Segundo apellido": "ALFONSO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-01-0002",
+    "Nombre": "ESTEFANI GUADALUPE",
+    "Primer apellido": "MOYERS",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-01-0020",
+    "Nombre": "DENIA GUADALUPE",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "NORIEGA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-05-0008",
+    "Nombre": "JONATHAN JESUS",
+    "Primer apellido": "GOMEZ",
+    "Segundo apellido": "GAMEZ",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-01-0013",
+    "Nombre": "LIZBETH GUADALUPE",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "MONTAñO",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-05-0018",
+    "Nombre": "JESUS FABIAN",
+    "Primer apellido": "JUAREZ",
+    "Segundo apellido": "VILLA",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "20-05-0015",
+    "Nombre": "RAFAEL",
+    "Primer apellido": "REAL",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "20-01-0021",
+    "Nombre": "PEDRO JAVIER",
+    "Primer apellido": "ALVAREZ",
+    "Segundo apellido": "FARIAS",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0021",
+    "Nombre": "LESLY GUADALUPE",
+    "Primer apellido": "QUINTANA",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-02-0015",
+    "Nombre": "MAURICIO",
+    "Primer apellido": "RAMIREZ",
+    "Segundo apellido": "MORENO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0003",
+    "Nombre": "BRITTANY PRISCILA",
+    "Primer apellido": "IRIQUI",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-03-0010",
+    "Nombre": "KEYLA LIZBETH",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-03-0004",
+    "Nombre": "JAQUELINNE",
+    "Primer apellido": "AYALA",
+    "Segundo apellido": "ESTRADA",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "21-07-0058",
+    "Nombre": "LAURA ADILENE",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "HURTADO",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-05-0010",
+    "Nombre": "LIZDYBETH",
+    "Primer apellido": "GURROLA",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-01-0006",
+    "Nombre": "JIMENA MARIA",
+    "Primer apellido": "BALLESTEROS",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0030",
+    "Nombre": "MICHELLE DE JESUS",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "REYES",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-01-0014",
+    "Nombre": "ALONDRA MARIA",
+    "Primer apellido": "GALDEAN",
+    "Segundo apellido": "CASTRO",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0018",
+    "Nombre": "JIMENA ATZIRE",
+    "Primer apellido": "VALDEZ",
+    "Segundo apellido": "CHENO",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-02-0038",
+    "Nombre": "AMERICA JAZMIN",
+    "Primer apellido": "ALEJO",
+    "Segundo apellido": "JUAREZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0022",
+    "Nombre": "FRANCISCO ALEJANDRO",
+    "Primer apellido": "AGUAYO",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-01-0007",
+    "Nombre": "JESUS JAVIER",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-02-0006",
+    "Nombre": "LITZY ALEJANDRA",
+    "Primer apellido": "SALGADO",
+    "Segundo apellido": "CRUZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0007",
+    "Nombre": "BALTAZAR",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "VERDUZCO",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-02-0007",
+    "Nombre": "JOSE FERNANDO",
+    "Primer apellido": "MIRANDA",
+    "Segundo apellido": "LUGO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-05-0023",
+    "Nombre": "ARNOLDO",
+    "Primer apellido": "GALINDO",
+    "Segundo apellido": "BALDERRAMA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-03-0017",
+    "Nombre": "LILIANA AZUCENA",
+    "Primer apellido": "MORAGA",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-05-0017",
+    "Nombre": "JACIEL LISANDRO",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "DOMINGUEZ",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-05-0003",
+    "Nombre": "JOSE MANUEL",
+    "Primer apellido": "NAVARRO",
+    "Segundo apellido": "NORIEGA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-02-0041",
+    "Nombre": "JOSE GERARDO",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "LOPEZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0016",
+    "Nombre": "VANESSA NAIDELY",
+    "Primer apellido": "MURRIETA",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0014",
+    "Nombre": "YADIRA HAYDEE",
+    "Primer apellido": "ARREDONDO",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0011",
+    "Nombre": "GUSTAVO GUADALUPE",
+    "Primer apellido": "MONGE",
+    "Segundo apellido": "URQUIJO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0013",
+    "Nombre": "ROSA ANGELICA",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "MORAN",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-02-0025",
+    "Nombre": "PATRICIA JAZMIN",
+    "Primer apellido": "CECEÑA",
+    "Segundo apellido": "MARTINEZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "21-02-0056",
+    "Nombre": "DANIXA",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "20-05-0011",
+    "Nombre": "MARGARITA ABIGAIL",
+    "Primer apellido": "MORAGA",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-03-0014",
+    "Nombre": "ITZEL",
+    "Primer apellido": "PADILLA",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-01-0028",
+    "Nombre": "DENISSE ESMERALDA",
+    "Primer apellido": "MONTAÑO",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0033",
+    "Nombre": "ANEIRY ESMERALDA",
+    "Primer apellido": "BUSTAMANTE",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-05-0016",
+    "Nombre": "JOSE LUIS",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "MEZA",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-02-0019",
+    "Nombre": "JOSE CARLOS",
+    "Primer apellido": "ZAMUDIO",
+    "Segundo apellido": "AGUIRRE",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "20-01-0030",
+    "Nombre": "JESUS JAVIER",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "ARMENTA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-01-0031",
+    "Nombre": "MANUEL EDGARDO",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "VALENCIA",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "21-07-0062",
+    "Nombre": "LUIS ARMANDO",
+    "Primer apellido": "DURAZO",
+    "Segundo apellido": "CORDOBA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-03-0057",
+    "Nombre": "JESUS ALEJANDRO",
+    "Primer apellido": "VAZQUEZ",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-01-0005",
+    "Nombre": "LUIS DAVID",
+    "Primer apellido": "ABRIL",
+    "Segundo apellido": "PALLARES",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-02-0030",
+    "Nombre": "KEVIN JADIER",
+    "Primer apellido": "PONCE",
+    "Segundo apellido": "ACUÑA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0015",
+    "Nombre": "ANA DELIA",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "GIL",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-01-0004",
+    "Nombre": "KEREN DEYANIRA",
+    "Primer apellido": "ESQUER",
+    "Segundo apellido": "LEMUS",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0035",
+    "Nombre": "LIXY YERALDIN",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "ORTEGA",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "21-07-0059",
+    "Nombre": "LUIS EDUARDO",
+    "Primer apellido": "REYNA",
+    "Segundo apellido": "YANEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-02-0031",
+    "Nombre": "DANIELA",
+    "Primer apellido": "CARRIZOZA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-02-0020",
+    "Nombre": "RENATA MARIA",
+    "Primer apellido": "SIERRA",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-03-0037",
+    "Nombre": "AMAIRAM IRALY",
+    "Primer apellido": "MURRIETA",
+    "Segundo apellido": "MORAN",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-05-0022",
+    "Nombre": "FERNANDO",
+    "Primer apellido": "SALAZAR",
+    "Segundo apellido": "BALLESTEROS",
+    "Grupo": "ISC 6-1"
+    },
+    {
+    "Matricula": "20-03-0026",
+    "Nombre": "FERNANDA LETICIA",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "URREA",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-02-0034",
+    "Nombre": "JESUS ANGEL",
+    "Primer apellido": "LUCERO",
+    "Segundo apellido": "CARRAZCO",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-01-0037",
+    "Nombre": "YAZMIN",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "CARDENAS",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "21-02-0016",
+    "Nombre": "DANIA IVETTE",
+    "Primer apellido": "ACUÑA",
+    "Segundo apellido": "CARDENAS",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-07-0063",
+    "Nombre": "KARIELA",
+    "Primer apellido": "PADILLA",
+    "Segundo apellido": "QUIJADA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "20-01-0040",
+    "Nombre": "JENY FERNANDA",
+    "Primer apellido": "RAMOS",
+    "Segundo apellido": "RASCON",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-02-0037",
+    "Nombre": "SUSEJ DENISSE",
+    "Primer apellido": "QUINTANA",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-01-0024",
+    "Nombre": "CRISTAL LUIZANA",
+    "Primer apellido": "MEDINA",
+    "Segundo apellido": "TEPECTZIN",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-03-0027",
+    "Nombre": "CINDY GUADALUPE",
+    "Primer apellido": "BUSANI",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "LAEP 6-1"
+    },
+    {
+    "Matricula": "20-02-0044",
+    "Nombre": "XIMENA",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "SANCHEZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "21-07-0060",
+    "Nombre": "JESUS ALAIN",
+    "Primer apellido": "RODRIGUEZ",
+    "Segundo apellido": "MARTINEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-02-0053",
+    "Nombre": "JESUS GABRIEL",
+    "Primer apellido": "FERNANDEZ",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "IIPC 6-1"
+    },
+    {
+    "Matricula": "20-01-0043",
+    "Nombre": "ELBA ANGELINA",
+    "Primer apellido": "PORCHAS",
+    "Segundo apellido": "HOLGUIN",
+    "Grupo": "LB 6-1"
+    },
+    {
+    "Matricula": "20-01-0044",
+    "Nombre": "NILZA FERNANDA",
+    "Primer apellido": "VAZQUEZ",
+    "Segundo apellido": "GRIEGO",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "20-03-0063",
+    "Nombre": "DIANA ESQUIPULA",
+    "Primer apellido": "SANTACRUZ",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "20-03-0064",
+    "Nombre": "JESUS JANETT",
+    "Primer apellido": "MIRANDA",
+    "Segundo apellido": "BOJORQUEZ",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "21-07-0035",
+    "Nombre": "FATIMA",
+    "Primer apellido": "GONZALEZ",
+    "Segundo apellido": "AMAVIZCA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-01-0014",
+    "Nombre": "MARIA DE LOS ANGELES",
+    "Primer apellido": "DOMINGUEZ",
+    "Segundo apellido": "JUAREZ",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-01-0015",
+    "Nombre": "DULCE AZUCENA",
+    "Primer apellido": "LUGO",
+    "Segundo apellido": "LOZANIA",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-01-0025",
+    "Nombre": "JAZMIN ZAMARA",
+    "Primer apellido": "CAÑEZ",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-01-0003",
+    "Nombre": "LUIS JAVIER",
+    "Primer apellido": "RUBIO",
+    "Segundo apellido": "RAMOS",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0001",
+    "Nombre": "ANA CAROLINA",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "MORAGA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0002",
+    "Nombre": "YERLIN",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "SILVA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-01-0001",
+    "Nombre": "MARIA ALLISON",
+    "Primer apellido": "DURAZO",
+    "Segundo apellido": "RIOS",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-02-0026",
+    "Nombre": "ALI MARIA",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "QUIJADA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-01-0019",
+    "Nombre": "ISRAEL ABRAHAM",
+    "Primer apellido": "LARA",
+    "Segundo apellido": "TAPIA",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0033",
+    "Nombre": "VICTOR ROLANDO",
+    "Primer apellido": "AGUILAR",
+    "Segundo apellido": "BOJORQUEZ",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-05-0007",
+    "Nombre": "MARCOS BERNARDO",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "GÜIDO",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0022",
+    "Nombre": "YANETH GUADALUPE",
+    "Primer apellido": "IRIBE",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-02-0021",
+    "Nombre": "VALERIA",
+    "Primer apellido": "MIRANDA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-02-0004",
+    "Nombre": "DANNA MARISOL",
+    "Primer apellido": "QUIJADA",
+    "Segundo apellido": "DOMINGUEZ",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-02-0022",
+    "Nombre": "YUREM TAILY",
+    "Primer apellido": "FELIPE",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-01-0004",
+    "Nombre": "JESUS DANIEL",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "YANEZ",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-02-0001",
+    "Nombre": "MARIA GUADALUPE",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "VALENZUELA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-02-0002",
+    "Nombre": "ROSA MARIA",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "VALENZUELA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-07-0003",
+    "Nombre": "SUSETH YARELI",
+    "Primer apellido": "ANDRADE",
+    "Segundo apellido": "CAMPOS",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-01-0022",
+    "Nombre": "PHOEBE ANADALAY",
+    "Primer apellido": "GONZALEZ",
+    "Segundo apellido": "MARQUEZ",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-02-0030",
+    "Nombre": "ALEJANDRA GUADALUPE",
+    "Primer apellido": "DURAN",
+    "Segundo apellido": "GALINDO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0006",
+    "Nombre": "MARLENE YOSELIN",
+    "Primer apellido": "DURAZO",
+    "Segundo apellido": "SALCIDO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0029",
+    "Nombre": "ALMA RUBI",
+    "Primer apellido": "CASTRO",
+    "Segundo apellido": "LUCERO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-05-0002",
+    "Nombre": "KARLA VALERIA",
+    "Primer apellido": "ELIAS",
+    "Segundo apellido": "HUMAR",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-02-0010",
+    "Nombre": "JOANA FRANCISCA",
+    "Primer apellido": "GONZALEZ",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-07-0005",
+    "Nombre": "STEPHANIE",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "FRANCO",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-02-0028",
+    "Nombre": "AXEL URIEL",
+    "Primer apellido": "CAREAGA",
+    "Segundo apellido": "MARRUJO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0005",
+    "Nombre": "NATAN",
+    "Primer apellido": "SUJA",
+    "Segundo apellido": "RUELAS",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-07-0011",
+    "Nombre": "MANUEL EDUARDO",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "QUIJADA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-01-0016",
+    "Nombre": "NATALIA YAMILETH",
+    "Primer apellido": "BALLESTEROS",
+    "Segundo apellido": "MOROYOQUI",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-05-0013",
+    "Nombre": "GABRIEL ALEJANDRO",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-02-0015",
+    "Nombre": "FLOR JACKELINE",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "REYES",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-05-0003",
+    "Nombre": "ALEXIA MARIA",
+    "Primer apellido": "FELIX",
+    "Segundo apellido": "HERNANDEZ",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0012",
+    "Nombre": "EDGAR ADRIAN",
+    "Primer apellido": "RIOS",
+    "Segundo apellido": "VALDEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "22-07-0059",
+    "Nombre": "LUIS ENRIQUE",
+    "Primer apellido": "CARRIZOZA",
+    "Segundo apellido": "ZAZUETA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "21-02-0013",
+    "Nombre": "PEDRO",
+    "Primer apellido": "CHAVEZ",
+    "Segundo apellido": "INZUNZA",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-07-0006",
+    "Nombre": "MARIA FERNANDA",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-05-0010",
+    "Nombre": "NOE ALEJANDRO",
+    "Primer apellido": "NUÑEZ",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-01-0011",
+    "Nombre": "JESSICA ALEXSANDRA",
+    "Primer apellido": "PORTELA",
+    "Segundo apellido": "LEON",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-02-0032",
+    "Nombre": "MARIA ELISA",
+    "Primer apellido": "MEDINA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0009",
+    "Nombre": "ODALYS CELESTE",
+    "Primer apellido": "ARVIZU",
+    "Segundo apellido": "ENCINAS",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-07-0007",
+    "Nombre": "JUAN DIEGO",
+    "Primer apellido": "MANCINAS",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-02-0014",
+    "Nombre": "MARCOS EFREN",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-05-0011",
+    "Nombre": "LUCIA GUADALUPE",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "CORDOVA",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0008",
+    "Nombre": "MANUEL ALEJANDRO",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "BRACAMONTES",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0038",
+    "Nombre": "GRECIA LARIZA",
+    "Primer apellido": "GOMEZ",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "21-02-0012",
+    "Nombre": "JUAN LUIS",
+    "Primer apellido": "LOPEZ",
+    "Segundo apellido": "ENCINAS",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0035",
+    "Nombre": "FRANCISCO JAVIER",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-01-0006",
+    "Nombre": "JUDAS ORLANDO",
+    "Primer apellido": "URQUIJO",
+    "Segundo apellido": "LIZO",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0013",
+    "Nombre": "DEYSI GUADALUPE DANIELA",
+    "Primer apellido": "CAMPA",
+    "Segundo apellido": "YEPIZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0023",
+    "Nombre": "JAHAYRA GUADALUPE",
+    "Primer apellido": "FIMBRES",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-05-0012",
+    "Nombre": "CESAR KEVIN",
+    "Primer apellido": "BORBON",
+    "Segundo apellido": "FIGUEROA",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0010",
+    "Nombre": "VALERIA PAOLA",
+    "Primer apellido": "TORRES",
+    "Segundo apellido": "OLIVAS",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-02-0039",
+    "Nombre": "PERLA ESMERALDA",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "LEON",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-01-0005",
+    "Nombre": "AMELIA",
+    "Primer apellido": "MIRANDA",
+    "Segundo apellido": "LUGO",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0029",
+    "Nombre": "MARIA BELEN",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "PADILLA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-02-0008",
+    "Nombre": "MARIA ANDREA",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "URREA",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-01-0010",
+    "Nombre": "LIZA FERNANDA",
+    "Primer apellido": "ENRIQUEZ",
+    "Segundo apellido": "LORETO",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0037",
+    "Nombre": "ROMINA GUADALUPE",
+    "Primer apellido": "LEYVA",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0030",
+    "Nombre": "NADIA DARINA",
+    "Primer apellido": "CARDENAS",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-05-0008",
+    "Nombre": "GREHE ARNOLDO",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "CORDERO",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-02-0045",
+    "Nombre": "OSCAR",
+    "Primer apellido": "AGUILAR",
+    "Segundo apellido": "MONTANO",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-01-0007",
+    "Nombre": "ALDO CESAR",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "GOMEZ",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-07-0020",
+    "Nombre": "ISABEL CRISTINA",
+    "Primer apellido": "ARMENTA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0031",
+    "Nombre": "DIANA YOLANDA",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "ABRIL",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0032",
+    "Nombre": "KASSANDRA ABIGAIL",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "MADA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0019",
+    "Nombre": "EDGAR ANTONIO",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0017",
+    "Nombre": "YESENIA GUADALUPE",
+    "Primer apellido": "MOLINA",
+    "Segundo apellido": "ESTRADA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0061",
+    "Nombre": "FRANCISCO ANTONIO",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "CRUZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0056",
+    "Nombre": "DULCE LIZETH",
+    "Primer apellido": "REYES",
+    "Segundo apellido": "PADILLA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0018",
+    "Nombre": "MARIA GUADALUPE",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-01-0012",
+    "Nombre": "ALEJANDRA GUADALUPE",
+    "Primer apellido": "CORONADO",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "LB 4-1"
+    },
+    {
+    "Matricula": "21-02-0044",
+    "Nombre": "ANGEL EDUARDO",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "21-02-0025",
+    "Nombre": "MATILDE",
+    "Primer apellido": "BERMUDEZ",
+    "Segundo apellido": "MARQUEZ",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-02-0036",
+    "Nombre": "NICOL MAYTHE",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "MARQUEZ",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "21-05-0014",
+    "Nombre": "UBALDO",
+    "Primer apellido": "IBARRA",
+    "Segundo apellido": "FRAGOSO",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0036",
+    "Nombre": "NEFTALY JOSEFINA",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "RUIZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-07-0053",
+    "Nombre": "RENATO",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "BALLESTEROS",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0039",
+    "Nombre": "JOSSELYN ALEJANDRA",
+    "Primer apellido": "MONTAÑO",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-05-0015",
+    "Nombre": "FRANCISCO ALBERTO",
+    "Primer apellido": "ARVAYO",
+    "Segundo apellido": "LUZANIA",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "21-07-0049",
+    "Nombre": "KIARA YAMILET",
+    "Primer apellido": "CASTRO",
+    "Segundo apellido": "CORDOVA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0025",
+    "Nombre": "MANUEL DE JESUS",
+    "Primer apellido": "REYES",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0040",
+    "Nombre": "PABLO",
+    "Primer apellido": "SALOMON",
+    "Segundo apellido": "LOPEZ",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0043",
+    "Nombre": "YAZMI KARINA",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0042",
+    "Nombre": "FRANCISCO JAVIER",
+    "Primer apellido": "GUEVARA",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "20-03-0068",
+    "Nombre": "ANA ADYLENE",
+    "Primer apellido": "DUARTE",
+    "Segundo apellido": "ZAMBRANO",
+    "Grupo": "LAEP 6-2"
+    },
+    {
+    "Matricula": "21-07-0052",
+    "Nombre": "LESLIE",
+    "Primer apellido": "VILLA",
+    "Segundo apellido": "PORTILLO",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0051",
+    "Nombre": "DANITZA",
+    "Primer apellido": "VILLA",
+    "Segundo apellido": "PORTILLO",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-07-0054",
+    "Nombre": "ELMA NOHEMI",
+    "Primer apellido": "AGUILAR",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "21-02-0053",
+    "Nombre": "MARINTIA JUDITH",
+    "Primer apellido": "BLANCO",
+    "Segundo apellido": "BUJANDA",
+    "Grupo": "IIPC 4-1"
+    },
+    {
+    "Matricula": "18-02-0063",
+    "Nombre": "EDGAR ALAN",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "IIPC 8-1"
+    },
+    {
+    "Matricula": "18-01-0030",
+    "Nombre": "GEMA YULISSA GUADALUPE",
+    "Primer apellido": "SANEZ",
+    "Segundo apellido": "MERAZ",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "21-07-0057",
+    "Nombre": "AARON BENITO",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "21-02-0057",
+    "Nombre": "JESUS TADEO",
+    "Primer apellido": "YANEZ",
+    "Segundo apellido": "BOJORQUEZ",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "22-07-0002",
+    "Nombre": "YAZMIN GUADALUPE",
+    "Primer apellido": "ESTRADA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0001",
+    "Nombre": "CHRISTIAN",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "DELGADO",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-08-0001",
+    "Nombre": "DARIANA",
+    "Primer apellido": "MENDOZA",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0003",
+    "Nombre": "BRAYAN LEONARDO",
+    "Primer apellido": "FLORES",
+    "Segundo apellido": "CRUZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-01-0011",
+    "Nombre": "JORGE ENRIQUE",
+    "Primer apellido": "CHAVEZ",
+    "Segundo apellido": "LEON",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-01-0009",
+    "Nombre": "GANDHI",
+    "Primer apellido": "LOPEZ",
+    "Segundo apellido": "RIVERA",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-07-0016",
+    "Nombre": "KARLA YARETH",
+    "Primer apellido": "YANEZ",
+    "Segundo apellido": "SANCHEZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0029",
+    "Nombre": "BRIANDA ZOIDETH",
+    "Primer apellido": "RIOS",
+    "Segundo apellido": "CARRILLO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-01-0001",
+    "Nombre": "LUIS CARLOS",
+    "Primer apellido": "VILLA",
+    "Segundo apellido": "BUSTAMANTE",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-08-0011",
+    "Nombre": "MERCEDES HAYDE",
+    "Primer apellido": "MORAN",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-01-0008",
+    "Nombre": "MONICA GUADALUPE",
+    "Primer apellido": "INZUNZA",
+    "Segundo apellido": "CONTRERAS",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-01-0003",
+    "Nombre": "ITZEL",
+    "Primer apellido": "OLIVAS",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-05-0001",
+    "Nombre": "ADRIAN",
+    "Primer apellido": "TORRES",
+    "Segundo apellido": "ARREOLA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-07-0018",
+    "Nombre": "LILIANNA RENEE",
+    "Primer apellido": "FIMBRES",
+    "Segundo apellido": "ACUÑA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0002",
+    "Nombre": "JAQUELIN",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-05-0002",
+    "Nombre": "VICTOR YAEL",
+    "Primer apellido": "BALANDRAN",
+    "Segundo apellido": "PEDROZA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0008",
+    "Nombre": "CATALINA",
+    "Primer apellido": "VILLAVICENCIO",
+    "Segundo apellido": "MEJIA",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0010",
+    "Nombre": "ANEL ARIADNA",
+    "Primer apellido": "AVALOS",
+    "Segundo apellido": "REYES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0005",
+    "Nombre": "PAULA ANDREI",
+    "Primer apellido": "GONZALEZ",
+    "Segundo apellido": "REYES",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0034",
+    "Nombre": "MIGUEL DARIO",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "ALVAREZ",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-01-0024",
+    "Nombre": "MARCIAL",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "ROBLES",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-07-0001",
+    "Nombre": "FRANCISCO EDUARDO",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "ARVIZU",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-05-0016",
+    "Nombre": "JONATHAN ALEXIS",
+    "Primer apellido": "FRAIRE",
+    "Segundo apellido": "GAMEZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-05-0006",
+    "Nombre": "CLAUDIA ALFONSINA",
+    "Primer apellido": "GRACIA",
+    "Segundo apellido": "BARRERA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0017",
+    "Nombre": "AXEL",
+    "Primer apellido": "TOSCANO",
+    "Segundo apellido": "MEDRANO",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-08-0010",
+    "Nombre": "YARELY",
+    "Primer apellido": "ENRIQUEZ",
+    "Segundo apellido": "RAMIREZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "23-08-0003",
+    "Nombre": "SEBASTIAN",
+    "Primer apellido": "ESTRADA",
+    "Segundo apellido": "CRUZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-08-0002",
+    "Nombre": "AHSLY JACQUELINE",
+    "Primer apellido": "MADRIGAL",
+    "Segundo apellido": "RAMIREZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-02-0007",
+    "Nombre": "DAVID",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "BRACAMONTES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0071",
+    "Nombre": "ITZEL KARINA",
+    "Primer apellido": "FIMBRES",
+    "Segundo apellido": "TELLEZ",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-07-0017",
+    "Nombre": "VIRGEN FABIOLA",
+    "Primer apellido": "GUERRERO",
+    "Segundo apellido": "PIZANO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0015",
+    "Nombre": "ANGEL URIEL",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "LUNA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0025",
+    "Nombre": "ANGEL VLADIMIR",
+    "Primer apellido": "GOYTIA",
+    "Segundo apellido": "TOSCANO",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-02-0024",
+    "Nombre": "JESUS ARMANDO",
+    "Primer apellido": "NEVAREZ",
+    "Segundo apellido": "MANCINAZ",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0006",
+    "Nombre": "BRAYAN MANUEL",
+    "Primer apellido": "LUCERO",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-01-0006",
+    "Nombre": "ITZAYANA",
+    "Primer apellido": "SIVIRIAN",
+    "Segundo apellido": "PIZANO",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-02-0011",
+    "Nombre": "DAMIAN ALEJANDRO",
+    "Primer apellido": "MANRIQUEZ",
+    "Segundo apellido": "REYES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0031",
+    "Nombre": "LUCIA ISABEL",
+    "Primer apellido": "OSUNA",
+    "Segundo apellido": "CAPERON",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-02-0002",
+    "Nombre": "JUMAN FRANCISCO",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "BRAVO",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-08-0020",
+    "Nombre": "KARELY ITZEL",
+    "Primer apellido": "GUTIERREZ",
+    "Segundo apellido": "FERNANDEZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-01-0019",
+    "Nombre": "AMARANTA",
+    "Primer apellido": "VILLALOBOS",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-08-0005",
+    "Nombre": "WENDY",
+    "Primer apellido": "AMARO",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-05-0003",
+    "Nombre": "ISAC ALEJANDRO",
+    "Primer apellido": "CANO",
+    "Segundo apellido": "MENDOZA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0038",
+    "Nombre": "FRANCISCO JAVIER",
+    "Primer apellido": "ORTIZ",
+    "Segundo apellido": "VILLA",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-07-0011",
+    "Nombre": "CRUZ CITA",
+    "Primer apellido": "MENDEZ",
+    "Segundo apellido": "LEON",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0012",
+    "Nombre": "XITLALY GUADALUPE",
+    "Primer apellido": "VALENZUELA",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-02-0004",
+    "Nombre": "MANUEL EDUARDO",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0003",
+    "Nombre": "NADIA MARLENE",
+    "Primer apellido": "OREA",
+    "Segundo apellido": "VALERIO",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-01-0014",
+    "Nombre": "DAVID JAVIER",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-05-0004",
+    "Nombre": "ALVARO ALEJANDRO",
+    "Primer apellido": "ARRIAGA",
+    "Segundo apellido": "ORTEGA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-05-0015",
+    "Nombre": "ISMAEL",
+    "Primer apellido": "ALEJO",
+    "Segundo apellido": "JUAREZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-01-0030",
+    "Nombre": "JAZMIN SAMARTH",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "SALAZAR",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-01-0013",
+    "Nombre": "GAEL",
+    "Primer apellido": "CRUZ",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-01-0015",
+    "Nombre": "DIANA CAROLINA",
+    "Primer apellido": "DURAZO",
+    "Segundo apellido": "RIOS",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-07-0004",
+    "Nombre": "TANIA PAOLA",
+    "Primer apellido": "ARVIZU",
+    "Segundo apellido": "RAMIREZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0039",
+    "Nombre": "XACZARY DAYANN",
+    "Primer apellido": "MOLINA",
+    "Segundo apellido": "MARQUEZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-01-0017",
+    "Nombre": "HECTOR ALAN",
+    "Primer apellido": "MONTAÑO",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-02-0028",
+    "Nombre": "LUZ GABRIELA",
+    "Primer apellido": "RUIZ",
+    "Segundo apellido": "MONTAÑO",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-05-0010",
+    "Nombre": "MARIA JOSE",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "MORENO",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-07-0005",
+    "Nombre": "LUIS ENRIQUE",
+    "Primer apellido": "BARRERA",
+    "Segundo apellido": "LARA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0007",
+    "Nombre": "ARLETH FRANCISCA",
+    "Primer apellido": "ENRIQUEZ",
+    "Segundo apellido": "SIVIRIAN",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-02-0064",
+    "Nombre": "JOSE ROBERTO",
+    "Primer apellido": "ENCINAS",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-08-0016",
+    "Nombre": "MARIA GUADALUPE",
+    "Primer apellido": "DURAZO",
+    "Segundo apellido": "SALCIDO",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-05-0009",
+    "Nombre": "FERNANDA",
+    "Primer apellido": "VAZQUEZ",
+    "Segundo apellido": "MIRANDA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-07-0052",
+    "Nombre": "VIANNEY VALENTINA",
+    "Primer apellido": "OTHON",
+    "Segundo apellido": "GAMEZ",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0039",
+    "Nombre": "FRANCISCO JAUDIEL",
+    "Primer apellido": "AMAYA",
+    "Segundo apellido": "MURRIETA",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-02-0056",
+    "Nombre": "KEVIN",
+    "Primer apellido": "PEREA",
+    "Segundo apellido": "MORALES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-05-0014",
+    "Nombre": "CARLOS ALBERTO",
+    "Primer apellido": "SOTO",
+    "Segundo apellido": "CORONADO",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0012",
+    "Nombre": "JOSE FRANCISCO",
+    "Primer apellido": "LEON",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-07-0025",
+    "Nombre": "VANESSA CRISTINA",
+    "Primer apellido": "LUNA",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-05-0013",
+    "Nombre": "KARLA YADIRA",
+    "Primer apellido": "BANDA",
+    "Segundo apellido": "VALLES",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0013",
+    "Nombre": "ANGEL GABRIEL",
+    "Primer apellido": "DEL ANGEL",
+    "Segundo apellido": "FLORES",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-07-0007",
+    "Nombre": "JOSE ALBERTO",
+    "Primer apellido": "AYALA",
+    "Segundo apellido": "ESTRADA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0044",
+    "Nombre": "VIVIANA IRAIS",
+    "Primer apellido": "ACUÑA",
+    "Segundo apellido": "CARDENAS",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-07-0020",
+    "Nombre": "FLOR ESMERALDA",
+    "Primer apellido": "VAZQUEZ",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0026",
+    "Nombre": "JESUS DANIEL",
+    "Primer apellido": "VALENZUELA",
+    "Segundo apellido": "CALLEJA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0065",
+    "Nombre": "FREDY",
+    "Primer apellido": "CORDOVA",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-02-0057",
+    "Nombre": "ANDREA YAMILETH",
+    "Primer apellido": "DURAN",
+    "Segundo apellido": "PAYARES",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-05-0026",
+    "Nombre": "ISELA JAZMIN",
+    "Primer apellido": "RUELAS",
+    "Segundo apellido": "ALVAREZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-02-0016",
+    "Nombre": "LESLY ALONDRA",
+    "Primer apellido": "MEDINA",
+    "Segundo apellido": "ACUÑA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-01-0021",
+    "Nombre": "JAZMIN",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "MONTANO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-01-0005",
+    "Nombre": "ANAHI",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "MONTANO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-05-0020",
+    "Nombre": "NOE",
+    "Primer apellido": "FLORES",
+    "Segundo apellido": "GALAZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-01-0004",
+    "Nombre": "JAVIER ENRIQUE",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-07-0006",
+    "Nombre": "SAUL ALEJANDRO",
+    "Primer apellido": "SILVA",
+    "Segundo apellido": "ARMENTA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0022",
+    "Nombre": "RAFAEL ROSENDO",
+    "Primer apellido": "ARMENTA",
+    "Segundo apellido": "MENDOZA",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-07-0035",
+    "Nombre": "JORGE FERNANDO",
+    "Primer apellido": "GALVAN",
+    "Segundo apellido": "CANO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0014",
+    "Nombre": "LESLY ARISBETH",
+    "Primer apellido": "PEDRAZA",
+    "Segundo apellido": "DIAZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0070",
+    "Nombre": "LUIS ANGEL",
+    "Primer apellido": "ACOSTA",
+    "Segundo apellido": "MADRID",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-01-0020",
+    "Nombre": "ADRIANA",
+    "Primer apellido": "TATARA",
+    "Segundo apellido": "DORAME",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-02-0062",
+    "Nombre": "DANIEL",
+    "Primer apellido": "MENDOZA",
+    "Segundo apellido": "RASCON",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "21-07-0064",
+    "Nombre": "AYLIN YURITZI",
+    "Primer apellido": "GARCIA",
+    "Segundo apellido": "ANDRADE",
+    "Grupo": "LA 4-1"
+    },
+    {
+    "Matricula": "22-02-0027",
+    "Nombre": "JOSE ANTONIO",
+    "Primer apellido": "TORIJANO",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-07-0036",
+    "Nombre": "JOEL REGINALDO",
+    "Primer apellido": "HOYOS",
+    "Segundo apellido": "BUSTAMANTE",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-08-0006",
+    "Nombre": "XIMENA",
+    "Primer apellido": "MORALES",
+    "Segundo apellido": "YANEZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0022",
+    "Nombre": "PERLA GRETEL",
+    "Primer apellido": "FUENTES",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0058",
+    "Nombre": "ISRAEL ALEJANDRO",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "BADILLA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-05-0019",
+    "Nombre": "KEVIN FRANCISCO",
+    "Primer apellido": "MONGE",
+    "Segundo apellido": "DOMINGUEZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-01-0026",
+    "Nombre": "JULIO CESAR",
+    "Primer apellido": "LEAL",
+    "Segundo apellido": "ACOSTA",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-08-0009",
+    "Nombre": "JESUS FERNANDO",
+    "Primer apellido": "LARA",
+    "Segundo apellido": "MADRID",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0019",
+    "Nombre": "BRISEIDA ISABEL",
+    "Primer apellido": "AMAYA",
+    "Segundo apellido": "TRUJILLO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0027",
+    "Nombre": "ANA CAROLINA",
+    "Primer apellido": "ABRIL",
+    "Segundo apellido": "LEON",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0010",
+    "Nombre": "LUIS CARLOS",
+    "Primer apellido": "VARELAS",
+    "Segundo apellido": "SIQUEIROS",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-01-0010",
+    "Nombre": "JOSE JUAN",
+    "Primer apellido": "PARRA",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-05-0018",
+    "Nombre": "JOSE GUILLERMO",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "BARRERA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-07-0041",
+    "Nombre": "MANUEL ALBERTO",
+    "Primer apellido": "CHAVEZ",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0052",
+    "Nombre": "JESUS LAURO",
+    "Primer apellido": "ARVIZU",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-07-0040",
+    "Nombre": "ANGEL GABRIEL",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0018",
+    "Nombre": "INGRID VICTORIA",
+    "Primer apellido": "SERRANO",
+    "Segundo apellido": "ESQUER",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-02-0051",
+    "Nombre": "KEVIN DOMINGO",
+    "Primer apellido": "CORONADO",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-07-0021",
+    "Nombre": "ALMA LORENA",
+    "Primer apellido": "GERMAN",
+    "Segundo apellido": "CERVANTES",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-02-0046",
+    "Nombre": "ANGEL SIGIFREDO",
+    "Primer apellido": "FRANCO",
+    "Segundo apellido": "CALLES",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-02-0053",
+    "Nombre": "JORDI ANTONIO",
+    "Primer apellido": "VEGA",
+    "Segundo apellido": "MURRIETA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-08-0008",
+    "Nombre": "MONICA LORELI",
+    "Primer apellido": "CUEVAS",
+    "Segundo apellido": "TOSCANO",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-02-0030",
+    "Nombre": "KEYLA MARIA",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "PERALTA",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-08-0004",
+    "Nombre": "CARLOS",
+    "Primer apellido": "GAMEZ",
+    "Segundo apellido": "CABRERA",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-02-0045",
+    "Nombre": "LEONEL  ALBERTO",
+    "Primer apellido": "DIAZ",
+    "Segundo apellido": "DOMINGUEZ",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-08-0012",
+    "Nombre": "KAREN PAULINA",
+    "Primer apellido": "COHEN",
+    "Segundo apellido": "MONTANTE",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0045",
+    "Nombre": "PABLO EMMANUEL",
+    "Primer apellido": "ENCINAS",
+    "Segundo apellido": "VEGA",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-05-0027",
+    "Nombre": "RUBEN DARIO",
+    "Primer apellido": "ANDRADE",
+    "Segundo apellido": "BARRERA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-01-0016",
+    "Nombre": "SARA JOCELYN",
+    "Primer apellido": "HERNANDEZ",
+    "Segundo apellido": "MARES",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-02-0055",
+    "Nombre": "JUAN MANUEL",
+    "Primer apellido": "IRIQUI",
+    "Segundo apellido": "HOYOS",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-08-0025",
+    "Nombre": "JUAN PABLO",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "ROBLES",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-08-0021",
+    "Nombre": "MARIA EVA",
+    "Primer apellido": "ANAYA",
+    "Segundo apellido": "CORONADO",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-08-0007",
+    "Nombre": "RAUL ENRIQUE",
+    "Primer apellido": "RUBIANO",
+    "Segundo apellido": "RASCON",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0049",
+    "Nombre": "FRANCISCO",
+    "Primer apellido": "GASPAR",
+    "Segundo apellido": "HERNANDEZ",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-07-0043",
+    "Nombre": "JUDAS TADEO",
+    "Primer apellido": "QUINTANA",
+    "Segundo apellido": "ROMERO",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-07-0024",
+    "Nombre": "EVELIA GUADALUPE",
+    "Primer apellido": "RAMIREZ",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-08-0015",
+    "Nombre": "BRAYANT FERNANDO",
+    "Primer apellido": "ROMERO",
+    "Segundo apellido": "CORDOVA",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0026",
+    "Nombre": "DANIKTZA MIRELY",
+    "Primer apellido": "LUNA",
+    "Segundo apellido": "COTA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-09-0029",
+    "Nombre": "BRENDA YESENIA",
+    "Primer apellido": "ARVIZU",
+    "Segundo apellido": "RAMIREZ",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0031",
+    "Nombre": "KEVIN ALONSO",
+    "Primer apellido": "BALDERRAMA",
+    "Segundo apellido": "PADILLA",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0047",
+    "Nombre": "MARIA DE LOS ANGELES",
+    "Primer apellido": "ELIAS",
+    "Segundo apellido": "MALDONADO",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-02-0043",
+    "Nombre": "WALDO ARNULFO",
+    "Primer apellido": "SALAS",
+    "Segundo apellido": "CELIZ",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-09-0005",
+    "Nombre": "ALAN",
+    "Primer apellido": "GALLEGO",
+    "Segundo apellido": "ESTRADA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0032",
+    "Nombre": "MARIA MAGDALENA",
+    "Primer apellido": "PEREZ",
+    "Segundo apellido": "CASTRO",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-07-0033",
+    "Nombre": "DANIELA ALEJANDRA",
+    "Primer apellido": "VIRELAS",
+    "Segundo apellido": "RENTERIA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-07-0055",
+    "Nombre": "ERIK DAVID",
+    "Primer apellido": "BANDA",
+    "Segundo apellido": "VALLES",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-09-0056",
+    "Nombre": "MARIA TERESA",
+    "Primer apellido": "SILVA",
+    "Segundo apellido": "LOPEZ",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0028",
+    "Nombre": "ALEXIA MARIA ROSA",
+    "Primer apellido": "TREJO",
+    "Segundo apellido": "BOJORQUEZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-07-0034",
+    "Nombre": "ANGEL ADAN",
+    "Primer apellido": "RODRIGUEZ",
+    "Segundo apellido": "RODRIGUEZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-09-0057",
+    "Nombre": "JOSE ENRIQUE",
+    "Primer apellido": "FIGUEROA",
+    "Segundo apellido": "MONTANO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-05-0021",
+    "Nombre": "ALEXIS  JESUS",
+    "Primer apellido": "WILLEM",
+    "Segundo apellido": "MEDINA",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-09-0041",
+    "Nombre": "BEATRIZ ADRIANA",
+    "Primer apellido": "NAVA",
+    "Segundo apellido": "NIEVES",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0035",
+    "Nombre": "GRICELDA",
+    "Primer apellido": "YANEZ",
+    "Segundo apellido": "MOLINA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-08-0013",
+    "Nombre": "ANAHI",
+    "Primer apellido": "DORAME",
+    "Segundo apellido": "MONTANO",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-09-0004",
+    "Nombre": "ALLISON CAROLINA",
+    "Primer apellido": "MEDINA",
+    "Segundo apellido": "QUIJADA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-02-0040",
+    "Nombre": "JOSE HERIBERTO",
+    "Primer apellido": "MOLINA",
+    "Segundo apellido": "LEYVA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0041",
+    "Nombre": "ANGELA ANDREA",
+    "Primer apellido": "BELDUCEA",
+    "Segundo apellido": "PORTILLO",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-08-0018",
+    "Nombre": "YUDILIA GUADALUPE",
+    "Primer apellido": "CHA",
+    "Segundo apellido": "RODRIGUEZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0042",
+    "Nombre": "JUAN MANUEL",
+    "Primer apellido": "PERALTA",
+    "Segundo apellido": "GALINDO",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0033",
+    "Nombre": "GRISELDA GABRIEL",
+    "Primer apellido": "VALENCIA",
+    "Segundo apellido": "VASQUEZ",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-09-0002",
+    "Nombre": "CARMEN ROCIO",
+    "Primer apellido": "BOJORQUEZ",
+    "Segundo apellido": "CASTILLO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-02-0068",
+    "Nombre": "IVON MARLENE",
+    "Primer apellido": "NAVARRO",
+    "Segundo apellido": "RODRIGUEZ",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "22-09-0003",
+    "Nombre": "CLARISSA",
+    "Primer apellido": "GRIJALVA",
+    "Segundo apellido": "GRIJALVA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-02-0048",
+    "Nombre": "NICOLAS",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "OCHOA",
+    "Grupo": "IIPC 2-3"
+    },
+    {
+    "Matricula": "22-09-0019",
+    "Nombre": "JESUS ADILENE",
+    "Primer apellido": "AGUILAR",
+    "Segundo apellido": "BOJORQUEZ",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0030",
+    "Nombre": "IVAN GAEL",
+    "Primer apellido": "RIOS",
+    "Segundo apellido": "TAPIA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-09-0009",
+    "Nombre": "CECILIA DEL SOCORRO",
+    "Primer apellido": "BRICENO",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0007",
+    "Nombre": "GABRIELA MARIA",
+    "Primer apellido": "URIAS",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0046",
+    "Nombre": "NOEMI",
+    "Primer apellido": "MONTAÑO",
+    "Segundo apellido": "GARCIA",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-09-0020",
+    "Nombre": "LILIA ISABEL",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "LUJAN",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "21-02-0058",
+    "Nombre": "ANDRÉS ALEJANDRO",
+    "Primer apellido": "DELGADO",
+    "Segundo apellido": "MARTiNEZ",
+    "Grupo": "IIPC 4-2"
+    },
+    {
+    "Matricula": "22-09-0024",
+    "Nombre": "JOSE FRANCISCO",
+    "Primer apellido": "GARDUÑO",
+    "Segundo apellido": "KALDMAN",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0011",
+    "Nombre": "KARLA GUADALUPE",
+    "Primer apellido": "BOJORQUEZ",
+    "Segundo apellido": "ALVARADO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0038",
+    "Nombre": "JESUSITA",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "SANCHEZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-02-0049",
+    "Nombre": "JOSE ARMANDO",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "ENCINAS",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0060",
+    "Nombre": "GABRIELA GUADALUPE",
+    "Primer apellido": "GUZMAN",
+    "Segundo apellido": "QUINTANA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-08-0019",
+    "Nombre": "REYNA MARCELA",
+    "Primer apellido": "MADRID",
+    "Segundo apellido": "MUÑOZ",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-09-0012",
+    "Nombre": "NOELIA",
+    "Primer apellido": "GUIDO",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0023",
+    "Nombre": "BRENDA LEE",
+    "Primer apellido": "ALVAREZ",
+    "Segundo apellido": "CHAVEZ",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-02-0050",
+    "Nombre": "RUBI GUADALUPE",
+    "Primer apellido": "NORIEGA",
+    "Segundo apellido": "ENCINAS",
+    "Grupo": "IIPC 2-1"
+    },
+    {
+    "Matricula": "21-05-0017",
+    "Nombre": "ARTEMISA CITLALLY",
+    "Primer apellido": "PEÑA",
+    "Segundo apellido": "GONZALEZ",
+    "Grupo": "ISC 4-1"
+    },
+    {
+    "Matricula": "22-02-0075",
+    "Nombre": "DANIEL",
+    "Primer apellido": "GRACIANO",
+    "Segundo apellido": "ZAZUETA",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-02-0063",
+    "Nombre": "YONATAN ABRAHAM",
+    "Primer apellido": "GALINDO",
+    "Segundo apellido": "PORTILLO",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-01-0034",
+    "Nombre": "GISEL ADRIANA",
+    "Primer apellido": "OSORIO",
+    "Segundo apellido": "TOLANO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-07-0037",
+    "Nombre": "DANIEL ANTONIO",
+    "Primer apellido": "TORRES",
+    "Segundo apellido": "PEÑA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-09-0033",
+    "Nombre": "ABIGAIL GUADALUPE",
+    "Primer apellido": "VELARDE",
+    "Segundo apellido": "SALCIDO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0032",
+    "Nombre": "FERNANDO",
+    "Primer apellido": "RIOS",
+    "Segundo apellido": "CORDOVA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "21-07-0065",
+    "Nombre": "JESUS EDUARDO",
+    "Primer apellido": "AGUAYO",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "LA 4-2"
+    },
+    {
+    "Matricula": "22-07-0047",
+    "Nombre": "REYNA JUDITH",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "RAMIREZ",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-05-0022",
+    "Nombre": "CARLOS ALBERTO",
+    "Primer apellido": "CRUZ",
+    "Segundo apellido": "MARTINEZ",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-01-0032",
+    "Nombre": "CECILIA NATHALY",
+    "Primer apellido": "PACHECO",
+    "Segundo apellido": "SANEZ",
+    "Grupo": "LB 2-2"
+    },
+    {
+    "Matricula": "22-09-0015",
+    "Nombre": "ERIKA YOAXIL",
+    "Primer apellido": "TELLEZ",
+    "Segundo apellido": "CABRERA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-01-0027",
+    "Nombre": "ALONDRA JESUSITA",
+    "Primer apellido": "VILLA",
+    "Segundo apellido": "RABAGO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-09-0016",
+    "Nombre": "JESUS ANTONIO",
+    "Primer apellido": "SERRANO",
+    "Segundo apellido": "ROJAS",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0022",
+    "Nombre": "PAOLA GUADALUPE",
+    "Primer apellido": "AVILES",
+    "Segundo apellido": "PAREDES",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0034",
+    "Nombre": "JHOMAYRA",
+    "Primer apellido": "NOLASCO",
+    "Segundo apellido": "SAGASTA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0021",
+    "Nombre": "MEYLI ARAID",
+    "Primer apellido": "VELAZQUEZ",
+    "Segundo apellido": "ANTUNEZ",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "19-01-0057",
+    "Nombre": "DIANA LAURA",
+    "Primer apellido": "LOPEZ",
+    "Segundo apellido": "BARBA",
+    "Grupo": "LB 8-1"
+    },
+    {
+    "Matricula": "22-05-0025",
+    "Nombre": "JOSE MANUEL",
+    "Primer apellido": "MORENO",
+    "Segundo apellido": "DURAZO",
+    "Grupo": "ISC 2-1"
+    },
+    {
+    "Matricula": "22-07-0056",
+    "Nombre": "LAURA MARIA",
+    "Primer apellido": "BARCELO",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-08-0024",
+    "Nombre": "ALEJANDRA GUADALUPE",
+    "Primer apellido": "VAZQUEZ",
+    "Segundo apellido": "FIMBRES",
+    "Grupo": "LT 2-1"
+    },
+    {
+    "Matricula": "22-07-0050",
+    "Nombre": "JUDITH NICOLE",
+    "Primer apellido": "FIMBRES",
+    "Segundo apellido": "MORENO",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-09-0039",
+    "Nombre": "MARTHA ROCIO",
+    "Primer apellido": "GAMEZ",
+    "Segundo apellido": "BORBON",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-01-0036",
+    "Nombre": "RODRIGO OSVALDO",
+    "Primer apellido": "BORBON",
+    "Segundo apellido": "VAZQUEZ",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-09-0042",
+    "Nombre": "HAYDEE CAROLINA",
+    "Primer apellido": "GASTELUM",
+    "Segundo apellido": "GIL",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0038",
+    "Nombre": "LUIS FERNANDO",
+    "Primer apellido": "MARTINEZ",
+    "Segundo apellido": "ARREOLA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0040",
+    "Nombre": "JANETH MINERVA",
+    "Primer apellido": "DOMINGUEZ",
+    "Segundo apellido": "MORALES",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0053",
+    "Nombre": "ANABEL",
+    "Primer apellido": "MIRANDA",
+    "Segundo apellido": "VALENZUELA",
+    "Grupo": "LA 2-2"
+    },
+    {
+    "Matricula": "22-01-0038",
+    "Nombre": "KARLA ISABEL",
+    "Primer apellido": "DURAN",
+    "Segundo apellido": "PACHECO",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-02-0076",
+    "Nombre": "ALONDRA JAKELIN",
+    "Primer apellido": "JIMENEZ",
+    "Segundo apellido": "DE JESuS",
+    "Grupo": "IIPC 2-2"
+    },
+    {
+    "Matricula": "22-09-0050",
+    "Nombre": "ANA PATRICIA",
+    "Primer apellido": "VASQUEZ",
+    "Segundo apellido": "URREA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-01-0039",
+    "Nombre": "ALAN",
+    "Primer apellido": "ANDRADE",
+    "Segundo apellido": "BARRERA",
+    "Grupo": "LB 2-1"
+    },
+    {
+    "Matricula": "22-09-0052",
+    "Nombre": "CELINA GUADALUPE",
+    "Primer apellido": "PARRA",
+    "Segundo apellido": "TOSCANO",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0051",
+    "Nombre": "GUADALUPE",
+    "Primer apellido": "ENCINAS",
+    "Segundo apellido": "ROJAS",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-09-0055",
+    "Nombre": "MARIA ADELINA",
+    "Primer apellido": "FIERROS",
+    "Segundo apellido": "ESTRADA",
+    "Grupo": "LAEL 2-1"
+    },
+    {
+    "Matricula": "22-07-0058",
+    "Nombre": "KARLA JANETH",
+    "Primer apellido": "ESPRIU",
+    "Segundo apellido": "RASCON",
+    "Grupo": "LA 2-1"
+    },
+    {
+    "Matricula": "22-09-0058",
+    "Nombre": "GABRIELA YUDITH ",
+    "Primer apellido": "MADERO",
+    "Segundo apellido": "MENDEZ",
+    "Grupo": "LAEL 2-1"
+    }
+]

@@ -68,7 +68,7 @@
                     <input type="hidden" name="Aula" id="Aula" value={{$vista}}>
                     <input type="hidden" name="NumEquipo" id="NumEquipo" value={{$id}}>
                     <!-- botón usado para el préstamo del equipo -->
-                    <button id="AccesoAlumno" class="text-center btn-acs-maestro ">Acceder</button>
+                    <button id="AccesoAlumno" class="text-center btn-acs-maestro " onclick="postDato()">Acceder</button>
                 </form>
             </div>
         </div>
@@ -82,43 +82,38 @@
     </div>
 
     <script>
-        const cargarPc = () =>{
-            $('.btn-acceso-alumno').click(function(e) {
-                e.preventDefault();
+        const postDato = () =>{
+            let numEquipo = document.getElementById("NumEquipo").value;
+            let aula = document.getElementById("Aula").value;
 
-                // Obtener el valor del campo NumEquipo
-                var numEquipo = $(this).closest('form').find('#NumEquipo').val();
+            // Verificar que las variables numEquipo y aula tengan valores asignados
+            if (numEquipo && aula) {
+            // Construir la URL con las variables
+            var url = '../../api/equipos/' + numEquipo + aula;
 
-                // Obtener el valor del campo Aula
-                var aula = $(this).closest('form').find('#Aula').val();
-
-                // Verificar que las variables numEquipo y aula tengan valores asignados
-                if (numEquipo && aula) {
-                // Construir la URL con las variables
-                var url = 'api/equipos/' + numEquipo + aula;
-
-                // Realizar la solicitud AJAX
-                $.ajax({
-                    type: 'PUT',
-                    url: url,
-                    data: {
-                    estado: 'Ocupado'
-                    },
-                    success: function(response) {
-                    // Manejar la respuesta del servidor
-                    console.log(response);
-                    // Realizar acciones adicionales después de cambiar el estado
-                    },
-                    error: function(xhr, status, error) {
-                    // Manejar el error en caso de que la solicitud AJAX falle
-                    console.error(error);
-                    }
-                });
-                } else {
-                console.error("Los valores de 'numEquipo' y 'aula' no están definidos o son nulos.");
+            // Realizar la solicitud AJAX
+            $.ajax({
+                type: 'PUT',
+                url: url,
+                data: {
+                    "Equipo": "a",
+                    "Aula": "a",
+                    "Estado": "Ocupado"
+                },
+                success: function(response) {
+                // Manejar la respuesta del servidor
+                console.log(response);
+                // Realizar acciones adicionales después de cambiar el estado
+                },
+                error: function(xhr, status, error) {
+                // Manejar el error en caso de que la solicitud AJAX falle
+                console.error(error);
                 }
             });
-        };
+            } else {
+            console.error("Los valores de 'numEquipo' y 'aula' no están definidos o son nulos.");
+            }
+        }
     </script>
 
         {{-- alerta que avisa que ingresamos los datos incorrectos o que faltan datos --}}

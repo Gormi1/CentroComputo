@@ -42,7 +42,14 @@
                             <p class="label">clave de empleado</p>
                         </div>
                         <i class="icono fa fa-credit-card text-dark "></i>
-                        <input type="text" name="clave" id="clave" placeholder="Clave de Empleado">
+                        <input type="text" name="clave" id="clave">
+                    </div>
+                    <div>
+                        <div>
+                            <p class="label">Nombre</p>
+                        </div>
+                        <i class="icono fa-regular fa-user "></i>
+                        <input type="text" name="nombre" id="nombre">
                     </div>
                     {{--botón de acceso--}}
                     <button id="AccesoMaestro" class="text-center btn-acs-maestro">

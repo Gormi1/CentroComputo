@@ -29,12 +29,15 @@ class maestroController extends Controller
         try {
             $validatedData = $request->validate([
                 'clave' => 'required',
+                'nombre' => 'required',
             ]);
 
             $correo = $request->input('clave');
+            $nombre = $request->input('nombre');
 
             // verifica la existencia de los datos en la base de datos
             $usuario = maestro::where('clave', $correo)->first();
+            $nombre = maestro::where('nombre', $nombre)->first();
 
             //si no es nullo da true
             if ($usuario != null) {
@@ -90,6 +93,7 @@ class maestroController extends Controller
             $validatedData = $request->validate([
                 'Grupo' => 'required',
                 'Materia' => 'required',
+                'Carrera' => 'required',
                 'NumAlumno' => 'required',
                 'HoraEntrada' => 'required',
                 'Aula' => 'required',
@@ -111,6 +115,7 @@ class maestroController extends Controller
             $registro->Grupo = $validatedData['Grupo'];
             $registro->Materia = $validatedData['Materia'];
             $registro->NumAlumno = $validatedData['NumAlumno'];
+            $registro->Carrera = $validatedData['Carrera'];
             $registro->Day = $dia;
             $registro->Month = $nombre_mes;
             $registro->HoraEntrada = $hora;

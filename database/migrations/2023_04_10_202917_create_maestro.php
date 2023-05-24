@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('maestro', function (Blueprint $table) {
             $table->id();
             $table->string('clave');
+            $table->string('nombre');
 
         });
     }

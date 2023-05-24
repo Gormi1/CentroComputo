@@ -21,6 +21,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('equipos', [equiposController::class,'index']);
 Route::post('equipos', [equiposController::class,'store']);
-Route::get('equipos/{equipo}{aula}', [equiposController::class,'show']);
+Route::get('Es/{equipo}{aula}', [equiposController::class,'show']);
 Route::put('equipos/{equipo}{aula}', [equiposController::class,'update']);
 Route::delete('equipos/{equipo}{aula}', [equiposController::class,'destroy']);

@@ -68,15 +68,15 @@
             </div>
         </div>
     </div>
- {{-- alerta para mostrar un apartado exitoso --}}
- @if (session('success'))
- <script>
-     Swal.fire({
-         title: 'Registro exitoso',
-         text: 'Tu equipo ha sido actualizado',
-         icon: 'success',
-         confirmButtonText: 'Aceptar'
-     });
- </script>
+    {{-- alerta para mostrar un apartado exitoso --}}
+    @if (session('success'))
+    <script>
+        Swal.fire({
+            title: 'Registro exitoso',
+            text: 'Tu equipo ha sido actualizado',
+            icon: 'success',
+            confirmButtonText: 'Aceptar'
+        });
+    </script>
 @endif
 @endsection

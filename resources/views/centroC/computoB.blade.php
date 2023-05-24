@@ -45,7 +45,7 @@
     {{--contenedor donde se muestran los equipo--}}
 
     <div id="contenedor" class="container">
-        <div class="box"><span class="fa fa-laptop fa-2x"></span></div>
+        <div class="box"><span class="fa fa-solid fa-computer fa-2x"></span></div>
     </div>
 
     <script>
@@ -98,7 +98,7 @@
                     }
 
                     tarjetas.push(`
-                        <div class="box" data-id="${Computadoras.id}" onclick="seleccionarEquipo(${Computadoras.Equipo}, 'A')" style="background-color: ${color};">
+                        <div class="box" data-id="${Computadoras.id}" onclick="seleccionarEquipo(${Computadoras.Equipo}, 'B')" style="background-color: ${color};">
                         <i class="fa fa-solid fa-computer fa-2x">{{ "\n" }}${Computadoras.Equipo}</i>
                         </div>
                     `);
