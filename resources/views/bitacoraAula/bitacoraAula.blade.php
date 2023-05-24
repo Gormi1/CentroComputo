@@ -66,6 +66,7 @@
                         <input type="datetime-local" name="HoraEntrada" id="HoraEntrada" value="2023-01-01T08:00">
                     </div>
                     <input type="hidden" name="Aula" id="Aula" value={{$Aula}}>
+                    <input type="hidden" name="Estado" id="Estado" value="Ocupado">
                     <!-- botón para guardar los datos -->
                     <button id="datosBitácora" class="text-center btn-acs-maestro">Acceder</button>
                 </form>
