@@ -31,26 +31,22 @@
             
             <div class="table-responsive">
                 <table class="table table-striped table-bordered"> 
-                    <div class="d-flex justify-content-between">
-                        {{-- Botón para regresar (izquierda) --}}
-                        <button class="btn btn-primary" type="button" onclick="pdf()">Regresar</button>
+                    <div class="d-flex justify-content-end">
+                        {{-- boton para regresar a pantalla admin lado izquierdo --}}
                         
-                        {{-- Botón para descargar PDF (derecha) --}}
-                        <button class="btn btn-success" type="submit" onclick="pdfdescarga()">Descargar PDF</button>
-                    </div>
-                    
-                    
+                        {{-- boton para descargar pdf de lado derecho --}}
+                        <button  class="btn btn-success  ml-auto" type="submit" onclick="pdfdescarga()">Descargar pdf</button>
+                      </div>
                       <br>
                       <div class="d-flex justify-content-end">
                        
                       </div>
-                    
-                 
+                  
                     <thead class="thead-dark">
                         <tr>
                             <th>Matricula</th>
                             <th>Alumno</th>
-                            <th>Numero PC.</th>
+                            <th>Aula</th>
                             <th>Hora entrada</th>
                             <th>Hora Salida</th>
                         </tr>
@@ -60,11 +56,11 @@
                             <tr>
                                 <td>{{ $dato->Matricula }}</td>
                                 <td>{{ $dato->Usuario }}</td>
-                                <td>Equipo:{{ $dato->NumEquipo }}.Aula{{ $dato->Aula }}</td>
+                                <td>Sala.{{ $dato->Aula }}</td>
                                 <td>{{ $dato->horaEntrada }}</td>
                                 <td>{{ $dato->HoraSalida }}</td>
                             </tr>
-                        @endforeach 
+                        @endforeach
                     </tbody>
                 </table>
              

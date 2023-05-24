@@ -35,19 +35,34 @@ class registroBitacoraController extends Controller
             $aula =  $validatedData['Aula'];
             $registro->Aula = $aula;
             // Comprobamos si el valor del campo de acceso tiene la estructura "xx-xx-xxxx" y solo contiene números
-            if (preg_match('/^\d{2}-\d{2}-\d{4}$/', $matricula)) {
-                    // Si tiene la estructura correcta y solo contiene números, podemos permitir el acceso
-                    // además de guardar los datos dentro de la bases de datos
-                    $registro->save();
-                    // y redirige al usuario a la página anterior
-                    return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado vaya a su lugar');
+            
+if (preg_match('/^\d{2}-\d{2}-\d{4}$/', $matricula)) {
+    // Si tiene la estructura correcta y solo contiene números, podemos permitir el acceso
 
-                } else {
-                    // Si no tiene la estructura correcta o contiene caracteres que no son numéricos, mostramos un mensaje de error
-                    $msg = 'ingrese la matricula en este formato (00-00-0000)';
-                    $error = 'error';
-                    return back()->with($error, $msg);
-                }
+    // Validar que HoraEntrada sea menor que HoraSalida
+    if ($validatedData['HoraEntrada'] < $validatedData['HoraSalida']) {
+        // Si HoraEntrada es menor que HoraSalida, permitir el acceso y continuar con el proceso
+
+        // Resto del código...
+
+        // además de guardar los datos dentro de la base de datos
+        $registro->save();
+
+        // y redirigir al usuario a la página anterior
+        return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado. ¡Ve a tu lugar!');
+    } else {
+        // Si HoraEntrada no es menor que HoraSalida, mostrar un mensaje de error
+        $msg = 'La Hora de entrada debe ser menor a la Hora de salida.';
+        $error = 'error';
+        return back()->with($error, $msg);
+    }
+} else {
+    // Si no tiene la estructura correcta o contiene caracteres que no son numéricos, mostramos un mensaje de error
+    $msg = 'Ingrese la matricula en este formato (00-00-0000)';
+    $error = 'error';
+    return back()->with($error, $msg);
+}
+
             
         // return redirect('/')->with('success', 'Tu equipo ha sido apartado y seleccionado valla a su lugar');
         } catch (\Illuminate\Validation\ValidationException $e) {

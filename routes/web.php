@@ -25,15 +25,34 @@ Route::post('/registro', [registroBitacoraController::class, 'store']);
 Route::get('/maestro', [maestroController::class, 'create'])->name('maestro.index');
 
 // acceso a la ruta para el ADMINISTRADOR
+// Route::get('/administrador', [adminController::class, 'create'])->name('admin.index');
+// // acceso para las reservaciones
+// Route::get('/reserva', [adminController::class, 'index'])->name('admin.datos');
+// Route::get('/pdf', [adminController::class, 'generarPDF'])->name('admin.generarpdf');
+// Route::get('/pdfDownload', [adminController::class, 'descargarPDF'])->name('admin.generarpdf');
+// // ruta para cambiar los estados de las computadoras
+// Route::get('/cambiarEstados', [computadorasController::class, 'modificarEstados'])
+//     ->name('equipo.computadoras');
+// //   agregar el de actualizar el equipo 
+// Route::put('/equipo/computadoras/{id}', [computadorasController::class, 'update'])->name('equipo.computadoras.update');
+
+
+// // *******************FIN ADMINISTRADOR 
 Route::get('/administrador', [adminController::class, 'create'])->name('admin.index');
 // acceso para las reservaciones
 Route::get('/reserva', [adminController::class, 'index'])->name('admin.datos');
 // Route::get('/pdf', [adminController::class, 'generarPDF'])->name('admin.generarpdf');
-Route::get('/pdfDownload', [adminController::class, 'descargarPDF'])->name('admin.generarpdf');
+
+// donde se ccrea el pdf carga la vista y descarga pdf
+Route::get('/pdf', [adminController::class, 'generarPDF'])->name('admin.generarpdf');
+Route::get('/pdfDownload', [adminController::class, 'generarPDF'])->name('admin.generarpdf');
 // acceso para generar el pdf apartir de la fecha ingresada buscando fecha solo la vista 
 Route::get('/buscarDatos', [adminController::class, 'vistaFecha'])->name('admin.buscarfecha');
 Route::post('/mandarDatos', [adminController::class, 'buscarPorFecha'])
 ->name('admin.buscarfecha');
+
+Route::get('admin/generar-pdf', 'adminController@generarPDF')->name('admin.generarPDF');
+
 
 // ruta para cambiar los estados de las computadoras
 Route::get('/cambiarEstados', [computadorasController::class, 'modificarEstados'])
@@ -41,7 +60,6 @@ Route::get('/cambiarEstados', [computadorasController::class, 'modificarEstados'
 //   agregar el de actualizar el equipo 
 Route::put('/equipo/computadoras/{id}', [computadorasController::class, 'update'])
 ->name('equipo.computadoras.update');
-
 
 // *******************FIN ADMINISTRADOR 
 

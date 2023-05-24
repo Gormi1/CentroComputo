@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="flex-grow-1 ">
-                <h1 class=" text-center pt-sm-3 ">Centro de Cómputo | Mantenimiento Equipo</h1><br>
+                <h1 class=" text-center pt-sm-3 ">Centro de Cómputo | Reservaciones Maestro</h1><br>
             </div>
         </div>
     </nav>
