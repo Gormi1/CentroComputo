@@ -38,9 +38,14 @@
                         {{-- Botón para descargar PDF (derecha) --}}
                         <button class="btn btn-success" type="submit" onclick="pdfdescarga()">Descargar PDF</button>
                     </div>
-                        <br>
-                        <div class="d-flex justify-content-end">
-                        </div>
+                    
+                    
+                      <br>
+                      <div class="d-flex justify-content-end">
+                       
+                      </div>
+                    
+                 
                     <thead class="thead-dark">
                         <tr>
                             <th>Matricula</th>
