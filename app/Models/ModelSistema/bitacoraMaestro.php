@@ -17,5 +17,6 @@ class bitacoraMaestro extends Model
         'Day',
         'Month',
         'HoraEntrada',
+        'created_at',
     ];
 }

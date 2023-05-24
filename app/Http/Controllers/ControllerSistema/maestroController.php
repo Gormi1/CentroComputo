@@ -59,7 +59,7 @@ class maestroController extends Controller
             return back()->with('error', 'Favor de llenar los campos.');
         }
     }
-
+// ******************FIN LOGIN MAESTRO****************
     public function store(Request $request)
     {
         try {
@@ -76,9 +76,18 @@ class maestroController extends Controller
                 'HoraEntrada' => 'required',
                 'Aula'=>'required',
             ]);
+            $fecha=$date_input = $_POST['HoraEntrada'];
             
+        
             $date_input = $_POST['HoraEntrada'];
-            
+           
+
+           
+
+            // if ($consulta == $fecha) {
+            //     // La fecha de entrada ya existe en la bitácora
+            //     return back()->with('error', 'La fecha de entrada ya existe en la bitácora.');
+            // }
             $date_time = new DateTime($date_input);
 
             $dia = $date_time->format('d');
@@ -93,9 +102,20 @@ class maestroController extends Controller
             $registro->Grupo = $validatedData['Grupo'];
             $registro->Materia = $validatedData['Materia'];
             $registro->NumAlumno = $validatedData['NumAlumno'];
-            $registro->Day = $dia;
+            $registro->Day = $dia;  
             $registro->Month = $nombre_mes;
             $registro->HoraEntrada = $hora;
+            $consulta = bitacoraMaestro::where('Day', $registro->Day)
+                ->where('HoraEntrada', $registro->HoraEntrada)
+                ->first();
+
+
+            // dd($consulta);
+             if ($consulta) {
+                // La fecha de entrada ya existe en la bitácora
+                return back()->with('error', 'Ya existe la reservacion en ese dia y esa hora  ');
+            }
+       
             $aula =  $validatedData['Aula'];
             $registro->Aula = $aula;
             
@@ -109,10 +129,10 @@ class maestroController extends Controller
         }
     }
 
-    public function estadoDiv()
-    {
-        $estado = DB::table('bitacora_maestro')->value('ocupado');
+    // public function estadoDiv()
+    // {
+    //     $estado = DB::table('bitacora_maestro')->value('ocupado');
 
-        return $estado;
-    }
+    //     return $estado;
+    // }
 }

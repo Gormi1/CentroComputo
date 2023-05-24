@@ -79,9 +79,9 @@
         <script>
             Swal.fire({
                 title: 'Oops¡¡',
-                text: 'Asegúrate de que los campos estén llenos',
+                text: "{{ session('error') }}",
                 icon: 'warning',
-                confirmButtonText: 'Entendido'
+                confirmButtonText: 'Aceptar'
             });
         </script>
     @endif
