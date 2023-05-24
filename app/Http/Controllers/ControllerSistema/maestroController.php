@@ -105,8 +105,10 @@ class maestroController extends Controller
             $registro->Day = $dia;  
             $registro->Month = $nombre_mes;
             $registro->HoraEntrada = $hora;
+            $aula =  $validatedData['Aula'];
+            $registro->Aula = $aula;
             $consulta = bitacoraMaestro::where('Day', $registro->Day)
-                ->where('HoraEntrada', $registro->HoraEntrada)
+                ->where('HoraEntrada', $registro->HoraEntrada)   ->where('Aula', $registro->Aula)
                 ->first();
 
 
@@ -116,8 +118,7 @@ class maestroController extends Controller
                 return back()->with('error', 'Ya existe la reservacion en ese dia y esa hora  ');
             }
        
-            $aula =  $validatedData['Aula'];
-            $registro->Aula = $aula;
+           
             
             $registro->save();
 
