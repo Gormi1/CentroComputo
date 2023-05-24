@@ -75,12 +75,38 @@
                     </div>
                     <input type="hidden" name="Aula" id="Aula" value={{$Aula}}>
                     <!-- botón para guardar los datos -->
-                    <button id="datosBitácora" class="text-center btn-acs-maestro">Acceder</button>
+                    <button id="datosBitácora" class="text-center btn-acs-maestro" onclick="updateEstadoAula()">Acceder</button>
                 </form>
-
             </div>
         </div>
     </div>
+
+    <script>
+        
+        function updateEstadoAula() {
+            let aula = document.getElementById("Aula").value;
+            if (aula) {
+                let url = "../api/salas/" + aula;
+
+                $.ajax({
+                type: "PUT",
+                url: url,
+                data: {
+                    "Aula": "A",
+                    "Estado": "Ocupado"
+                },
+                success: function(response) {
+                    
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+            } else {
+            console.error("El valor de 'aula' no esta definidos o es nulo.");
+            }
+        }
+    </script>
 
     {{-- alerta de warning para notificar si falta algún campo --}}
     @if (session('error'))

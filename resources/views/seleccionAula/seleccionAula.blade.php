@@ -25,19 +25,10 @@
         </div>
     </nav>
 
-{{--
-    @php
-        $estados = \App\Models\bitacora_maestro::pluck('estado');
-        $estado1 = $estados[0];
-        $estado2 = $estados[1];
-        // dd($estado1);
-        // dd($estado2);
-    @endphp
---}}
     <div class=" contenedor d-flex justify-content-between mx-auto" style="width: 600px; padding-top:60px;">
         {{-- Caja de sala A --}}
-        <div id="alum" class=" alum text-center" style="" id="mi_div">
-            <div class="child row" id="mi_div1">
+        <div id="aulaA" class=" alum text-center" style="">
+            <div class="child row" id="A">
                 <!-- <i class="fa fa-solid fa-computer fa-2x"></i> -->
                 <h2 class="fas fa-solid fa-computer fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h2 class="text-white">Aula A</h2>
@@ -47,18 +38,16 @@
             <div class="BtnAula">
                 <button 
                     class="btn-acs-maestro text-center" 
-                    onclick="SelectAula('A')" 
+                    onclick="SelectAula('A')"
                     class=" d-flex align-items-center justify-content-center">
                     Seleccionar aula
                 </button>
             </div>
-            
         </div>
 
         {{-- esta caja de texto para sala B --}}
-        <div id="alum" class=" alum text-center" style="">
-     
-            <div class="child  " id="mi_div">
+        <div id="aulaB" class=" alum text-center" style="">
+            <div class="child" id="B">
                 <h2 class="fas fa-solid fa-computer fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h2 class="text-whith">Aula B</h2>
                 <h3 class="textH3">32 equipos</h3>
@@ -75,27 +64,89 @@
         </div>
     </div>
 
-    {{-- @if ($estado = 'ocupado')
-        {
-        <script>
-            // Seleccionar el elemento
-            var miDiv = document.getElementById("mi_div");
-            // Sentencia para determinar el color
+    <script>
+        let url = "../api/salas/"
+        const cargarPc = () => {
+            $.ajax({
+                type: "GET",
+                url: url,
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
 
-            miDiv.style.backgroundColor = "red"; // Cambiar a rojo si  se cumple la sentencia
-        </script>
+                    let aulaA = document.getElementById("A");
+                    let aulaB = document.getElementById("B");
+                    
+                    let aulaAcont = document.getElementById("aulaA");
+                    let aulaBcont = document.getElementById("aulaB");
+
+                    // Obtener el estado de cada aula
+                    let estadoAulaA = data[0].Estado;
+                    let estadoAulaB = data[1].Estado;
+                    console.log(estadoAulaA);
+                    console.log(estadoAulaB);
+
+                    // Establecer el color correspondiente según el estado del aula A
+                    switch (estadoAulaA) {
+                        case "Disponible":
+                            aulaA.style.backgroundColor = "rgb(228, 105, 23)";
+                            aulaAcont.querySelector("button").style.backgroundColor = "rgb(0, 176, 80)";
+                            aulaAcont.querySelector("button").disabled = false;
+                            break;
+                        case "Ocupado":
+                            aulaA.style.backgroundColor = "rgb(43, 43, 43)";
+                            aulaAcont.querySelector("button").style.backgroundColor = "lightgray";
+                            aulaAcont.querySelector("button").disabled = true;
+                            break;
+                        default:
+                            aulaA.style.backgroundColor = "rgb(228, 105, 23)";
+                            aulaAcont.querySelector("button").style.backgroundColor = "rgb(0, 176, 80)";
+                            aulaAcont.querySelector("button").disabled = false;
+                    }
+
+                    // Establecer el color correspondiente según el estado del aula B
+                    switch (estadoAulaB) {
+                        case "Disponible":
+                            aulaB.style.backgroundColor = "rgb(228, 105, 23)";
+                            aulaBcont.querySelector("button").style.backgroundColor = "rgb(0, 176, 80)";
+                            aulaBcont.querySelector("button").disabled = false;
+                            break;
+                        case "Ocupado":
+                            aulaB.style.backgroundColor = "rgb(43, 43, 43)";
+                            aulaBcont.querySelector("button").style.backgroundColor = "lightgray";
+                            aulaBcont.querySelector("button").disabled = true;
+                            break;
+                        default:
+                            aulaB.style.backgroundColor = "rgb(228, 105, 23)";
+                            aulaBcont.querySelector("button").style.backgroundColor = "rgb(0, 176, 80)";
+                            aulaBcont.querySelector("button").disabled = false;
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
         }
-    @endif --}}
-    {{-- @if ($estados = '')
-        {
-        <script>
-            var miDiv = document.getElementById("mi_div");
-            miDiv.style.backgroundColor = "orange";
-        </script>
 
+        const SelectAula = (Aula) =>{
+            let url = "/BitacoraAula"+Aula;
+            
+            $.ajax({
+                type: "GET",
+                url: url,
+                success: function(response) {
+                    // Aquí puedes manejar la respuesta del controlador, como mostrarla en la vista
+                    window.location.href = '/BitacoraAula'+Aula;
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
         }
-    @endif --}}
 
+        
+    </script>
+    
     {{--alerta usada para mostrar el préstamo correcto del aula--}}
     @if (session('success'))
         <script>

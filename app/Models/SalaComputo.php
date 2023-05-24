@@ -10,9 +10,13 @@ class SalaComputo extends Model
     protected $table = 'sala_computo';
     // protected $table = 'bitacora_maestro';
     protected $fillable = [
-
+        'Equipo',
         'Aula',
-        'Sala',
+        'Estado'
+    ];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at'
     ];
 }

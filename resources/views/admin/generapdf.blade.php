@@ -25,9 +25,9 @@
 <div class="container p-5">
     
     <div class="row justify-content-center">
-     
+    
         <div class="col-md-15">
-           
+        
             
             <div class="table-responsive">
                 <table class="table table-striped table-bordered"> 
@@ -36,12 +36,12 @@
                         
                         {{-- boton para descargar pdf de lado derecho --}}
                         <button  class="btn btn-success  ml-auto" type="submit" onclick="pdfdescarga()">Descargar pdf</button>
-                      </div>
-                      <br>
-                      <div class="d-flex justify-content-end">
-                       
-                      </div>
-                  
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-end">
+                    
+                    </div>
+
                     <thead class="thead-dark">
                         <tr>
                             <th>Matricula</th>
@@ -63,7 +63,7 @@
                         @endforeach
                     </tbody>
                 </table>
-             
+            
         </div>
     </div>
 </div>
