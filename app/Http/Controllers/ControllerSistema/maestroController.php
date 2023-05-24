@@ -1,8 +1,11 @@
 <?php
 namespace App\Http\Controllers\ControllerSistema;
+
 use App\Http\Controllers\Controller;
 use App\Models\ModelSistema\maestro;
 use App\Models\ModelSistema\bitacoraMaestro;
+use App\Models\ModelSistema\SalaComputo;
+use App\Models\SalaComputo as ModelsSalaComputo;
 use DB;
 use Illuminate\Http\Request;
 use DateTime;
@@ -40,87 +43,103 @@ class maestroController extends Controller
                 if ($usuario->exists) {
                     $success = 'success';
                     $mensaje = 'Accedió Correctamente';
+
+
                     return redirect('/seleccionAula')->with($success, $mensaje);
-                }else {
+                } else {
                     //muestra una alerta de error al mostrar datos incorrectos
-                    $mensaje= 'datos incorrectos';
+                    $mensaje = 'datos incorrectos';
                     return redirect('/maestro')
                         ->with('warning', $mensaje);
                 }
-            } else {    
+            } else {
                 //muestra un alerta de error que dice que los datos no existen
-                $mensaje= 'Usuario no encontrado';
+                $mensaje = 'Usuario no encontrado';
                 return redirect('/maestro')
                     ->with('warning', $mensaje);
             }
-            
+
         } catch (\Illuminate\Validation\ValidationException $e) {
             // Mostrar una alerta al usuario indicando que se requieren llenar los campos
             return back()->with('error', 'Favor de llenar los campos.');
         }
     }
-// ******************FIN LOGIN MAESTRO****************
+    // ******************FIN LOGIN MAESTRO****************
     public function store(Request $request)
     {
+
         try {
+
+
+
             $meses = array(
-                'enero', 'febrero', 'marzo', 'abril',
-                'mayo', 'junio', 'julio', 'agosto',
-                'septiembre', 'octubre', 'noviembre', 'diciembre'
+                'enero',
+                'febrero',
+                'marzo',
+                'abril',
+                'mayo',
+                'junio',
+                'julio',
+                'agosto',
+                'septiembre',
+                'octubre',
+                'noviembre',
+                'diciembre'
             );
-            
+
             $validatedData = $request->validate([
                 'Grupo' => 'required',
                 'Materia' => 'required',
                 'NumAlumno' => 'required',
                 'HoraEntrada' => 'required',
-                'Aula'=>'required',
+                'Aula' => 'required',
             ]);
-            $fecha=$date_input = $_POST['HoraEntrada'];
-            
-        
+            $aula = $validatedData['Aula'];
+            // $Sala = ModelsSalaComputo::where('Aula', $aula)->where('estado', 'ocupado')->first();
+            // dd($Sala);
+            $fecha = $date_input = $_POST['HoraEntrada'];
+
+
+
             $date_input = $_POST['HoraEntrada'];
-           
-
-           
-
-            // if ($consulta == $fecha) {
-            //     // La fecha de entrada ya existe en la bitácora
-            //     return back()->with('error', 'La fecha de entrada ya existe en la bitácora.');
-            // }
             $date_time = new DateTime($date_input);
-
             $dia = $date_time->format('d');
             $mes = $date_time->format('n') - 1; // Resta 1 porque el arreglo comienza en 0
             $nombre_mes = $meses[$mes];
             $hora = $date_time->format('H:i:s');
-            
-           // dd($date_input);
-            
-            // Si los datos son correctos, continúa con el procesamiento de los datos
             $registro = new bitacoraMaestro;
             $registro->Grupo = $validatedData['Grupo'];
             $registro->Materia = $validatedData['Materia'];
             $registro->NumAlumno = $validatedData['NumAlumno'];
-            $registro->Day = $dia;  
+            $registro->Day = $dia;
             $registro->Month = $nombre_mes;
             $registro->HoraEntrada = $hora;
-            $aula =  $validatedData['Aula'];
+
+
+            // if (condition) {
+            //     # code...
+            // }
+
             $registro->Aula = $aula;
             $consulta = bitacoraMaestro::where('Day', $registro->Day)
-                ->where('HoraEntrada', $registro->HoraEntrada)   ->where('Aula', $registro->Aula)
+                ->where('HoraEntrada', $registro->HoraEntrada)->where('Aula', $registro->Aula)
                 ->first();
 
 
-            // dd($consulta);
-             if ($consulta) {
+            // dd($consulta); con esto puedes ver los errores
+            if ($consulta) {
                 // La fecha de entrada ya existe en la bitácora
                 return back()->with('error', 'Ya existe la reservacion en ese dia y esa hora  ');
             }
-       
-           
-            
+
+
+
             $registro->save();
+            $salaComputo = ModelsSalaComputo::where('Aula', $aula)->first();
+            if ($salaComputo) {
+                $salaComputo->estado = 'Ocupado';
+                $salaComputo->save();
+            }
 
             // redirige al maestro a la página anterior
             return redirect('/')->with('success', 'Aula registrada Por favor vaya a sus lugares');
@@ -136,4 +155,10 @@ class maestroController extends Controller
 
     //     return $estado;
     // }
+
+    public function salaOcupada($aula)
+    {
+        $occupied = bitacoraMaestro::where('Aula', $aula)->exists();
+        return $occupied;
+    }
 }

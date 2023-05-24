@@ -1,4 +1,7 @@
 
+const regresoSala = () =>{
+    window.location.href = '/seleccionAula';
+}
 const Equipo = () =>{
     window.location.href = '/computo';
 }

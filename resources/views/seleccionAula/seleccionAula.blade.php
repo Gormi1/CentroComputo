@@ -57,7 +57,7 @@
 
         {{-- esta caja de texto para sala B --}}
         <div id="alum" class=" alum text-center" style="">
-            {{-- {{ $estado2 == 'ocupado' ? 'ocupado' : '' }} --}}
+     
             <div class="child  " id="mi_div">
                 <h2 class="fas fa-solid fa-computer fa-7x d-flex align-items-center justify-content-center"></h2>
                 <h2 class="text-whith">Aula B</h2>
