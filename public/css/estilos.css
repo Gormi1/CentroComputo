@@ -290,7 +290,7 @@ a.a-white {
 }
 
 .ocupado {
-    background-color: rgb(43, 43, 43); /* Color cuando el estado es "Ocupado" */
+    background-color: btn-acs-maestro; /* Color cuando el estado es "Ocupado" */
 }
 
 /* termina div maestro de la sala computo  (235, 112, 29); */
